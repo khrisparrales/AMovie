@@ -1,14 +1,14 @@
 export enum Genre {
-  All = 'all',
-  Action = 'action',
-  Adventure = 'adventure',
-  Biography = 'biography',
-  Comedy = 'comedy',
-  Crime = 'crime',
+  Todas = 'todas',
+  Accion = 'accion',
+  Aventura = 'aventura',
+  Biografia = 'biografia',
+  Comedia = 'comedia',
+  Crimen = 'crimen',
   Drama = 'drama',
-  History = 'history',
-  Mystery = 'mystery',
+  Historia = 'historia',
+  Mysterio = 'mysterio',
   Scifi = 'scifi',
-  Sport = 'sport',
-  Thriller = 'thriller'
+  Deporte = 'deporte',
+  Terror = 'terror'
 }

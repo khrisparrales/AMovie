@@ -9,16 +9,16 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: 'sonic',
         description: 'Sonic, el descarado erizo azul basado en la famosa serie de videojuegos de Sega, vivirá aventuras y desventuras cuando conoce a su amigo humano y policía, Tom Wachowski (James Marsden). Sonic y Tom unirán sus fuerzas para tratar de detener los planes del malvado Dr. Robotnik (Jim Carrey), que intenta atrapar a Sonic con el fin de emplear sus inmensos poderes para dominar el mundo.',
         genres: [
-          'action',
-          'adventure',
-          'comedy'
+          'accion',
+          'aventura',
+          'comedia'
         ],
         rate: '8.6',
         length: '1hr 48mins',
         img: 'https://image.tmdb.org/t/p/w220_and_h330_face/jYbANSoj6qGTbDkstq9J5Vy8fRF.jpg',
         cover: 'https://image.tmdb.org/t/p/w533_and_h300_bestv2/stmYfCUGd8Iy6kAMBr6AmWqx8Bq.jpg',
         url:"https://drive.google.com/file/d/1DZ3LworS8tph3WjC5Df_HCwSVlDBtqeX/preview"
-             },
+      },
       {
         id: 2,
         key: 'we-are-the-millers',

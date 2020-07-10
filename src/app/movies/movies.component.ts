@@ -35,7 +35,7 @@ export class MoviesComponent implements OnInit {
       this.router.events.pipe(
         filter(event => event instanceof NavigationEnd)
       ).subscribe((event: NavigationEnd) => {
-        this.selectedGenre = this.getParameterByName('filter', event.url) || 'all';
+        this.selectedGenre = this.getParameterByName('filter', event.url) || 'todas';
       });
     }
 
