@@ -1143,7 +1143,955 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         length: '2hr 18mins',
         img: 'https://image.tmdb.org/t/p/w220_and_h330_face/bvYI6i9lQ3bsup9PgnMF3YYr8ZR.jpg',
         cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/6P3c80EOm7BodndGBUAJHHsHKrp.jpg',
-        url: ''
+        url: 'https://drive.google.com/file/d/1d_UiTatuLtz9AFBoGsio80k5ejzGZoMo/preview'
+        
+      },
+      {
+        id: 68,
+        key: 'SCOTT-PILGRIM-CONTRA-EL-MUNDO',
+        name: 'SCOTT PILGRIM CONTRA EL MUNDO',
+        description: 'Les presentamos al encantador y desempleado Scott Pilgrim (Michael Cera), bajista de un grupo “garage” de lo más corriente, los Sex Bob-omb. Este joven de 22 años acaba de conocer a la chica de sus sueños… la de verdad. ¿Cuál es el problema a la hora de conquistar a Ramona Flowers (Mary Elizabeth Winstead)? Los siete ex de la chica están decididos a matar a Scott.Scott Pilgrim nunca ha tenido problemas para echarse novia. Las dificultades aparecen cuando quiere cortar. Mientras intenta deshacerse de la última conquista, Ramona irrumpe en su vida, pero no tarda en descubrir que la mujer deseada arrastra un bagaje nada tranquilizador: sus ex controlan su vida amorosa y están dispuestos a hacer lo que sea para eliminar la competencia.',
+        genres: [
+          'comedia',
+          'accion',
+          'fantasia',
+          'romance'
+        ],
+        rate: '8.5',
+        length: '1hr 52mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/bOz2Wxv89mtCsr5gaxJDdwZifK4.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/A0xxZhihmbOvzSBFauvaxnm9zAZ.jpg',
+        url: 'https://drive.google.com/file/d/1rOos7PedFXixpmZgcX9zybm5SJ4zSf4j/preview'
+        
+      },
+      {
+        id: 69,
+        key: 'AQUAMAN',
+        name: 'AQUAMAN',
+        description: 'Arthur Curry, también conocido como Aquaman (Jason Momoa), es un habitante de un poderoso reino subacuático que recibe el nombre de la Atlántida. En esta película repleta de acción, aventura, e incluso partes de terror, conoceremos sus orígenes, desde que era un niño criado por un hombre humano y considerado un paria por los suyos, hasta que crece y debe hacer frente a los problemas que han aparecido en su mundo. Entonces, este hombre mitad humano y mitad atlante, emprenderá el viaje de su vida, en el que tendrá que descubrir quién es realmente y si es digno de ser un rey. Acompañado de Mera (Amber Heard), hará frente a este y otros retos, mientras le planta cara a Black Manta (Yahya Abdul-Mateen II) y a su propio hermanastro Orm (Patrick Wilson). ¿Será capaz de dirigir a su pueblo y convertirse en un héroe para el mundo?',
+        genres: [
+          'aventura',
+          'accion',
+          'fantasia'
+        ],
+        rate: '8.5',
+        length: '2hr 22mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/yTzr6Nc4RcTXVw9SsWQNJdcjTz5.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/8UqyECPx67XgNETLbQYbnOjRaut.jpg',
+        url: 'https://drive.google.com/file/d/1Xdus_MyRjpdU3rMldhZllANdB25QvI7d/preview'
+        
+      },
+      {
+        id: 70,
+        key: 'PANTERA-NEGRA',
+        name: 'PANTERA NEGRA',
+        description: '"Black Panther" cuenta la historia de TChalla quien, después de los acontecimientos de "Capitán América: Civil War", vuelve a casa, a la nación de Wakanda, aislada y muy avanzada tecnológicamente, para ser proclamado Rey. Pero la reaparición de un viejo enemigo pone a prueba el temple de TChalla como Rey y Black Panther ya que se ve arrastrado a un conflicto que pone en peligro todo el destino de Wakanda y del mundo.',
+        genres: [
+          'aventura',
+          'accion',
+          'fantasia',
+          'scifi'
+        ],
+        rate: '7.4',
+        length: '2hr 14mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/gNekOam2UG6bB6tklMAtGmvZC1Z.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/bQwzJX3CPaZYaLobhhQeKN8LGb3.jpg',
+        url: 'https://drive.google.com/file/d/1rX9PJkwkUkiCalgZmxIrNY78IeIT-ccD/preview'
+        
+      },
+      {
+        id: 71,
+        key: 'BLADE',
+        name: 'BLADE',
+        description: 'En un mundo cohabitado en guerra por hombres y vampiros Blade es un vampiro que, al contrario que el resto, no se alimenta de humanos, y que pretende acabar con la raza de "seres superiores" que mordieron a su madre cuando estaba embarazada.',
+        genres: [
+          'accion',
+          'terror',
+          'scifi'
+        ],
+        rate: '6.7',
+        length: '2hr 00mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/dCsTsFX4PT9wewpKYaddwPHYI3A.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/mIkqnFP5OPAqyHXxc23NbE6IIb2.jpg',
+        url: 'https://drive.google.com/file/d/1qS4N1f7tB3-Y9M0dM858_71Vowb6iBNy/preview'
+        
+      },
+      {
+        id: 71,
+        key: 'BLADE-2',
+        name: 'BLADE 2',
+        description: 'Una nueva raza de vampiros, los Reapers, surge para atacar tanto a los humanos como a los de su propia raza, causando el terror. El Consejo de la Sombra, un grupo de vampiros que teme por su supervivencia y que tiene su sede en Praga, contacta con Blade para que acabe con ellos.',
+        genres: [
+          'accion',
+          'terror',
+          'scifi'
+        ],
+        rate: '6.7',
+        length: '1hr 57mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/hxCGLp3yGUBat6w9YdxxVtqiApH.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/xlEJbzhq975o8EEDW3Cg2obgZIA.jpg',
+        url: 'https://drive.google.com/file/d/1Ehf2UyoEG4em_Yr93_WrUEC05i77MV-Q/preview'
+        
+      },
+      {
+        id: 72,
+        key: 'BLADE-TRINITY',
+        name: 'BLADE TRINITY',
+        description: 'Durante años, Blade ha luchado contra los vampiros sin que el mundo supiera lo que sucedía en los bajos fondos. Pero ahora, tras caer en las redes del FBI, se ve forzado a salir a la luz del día para unir sus fuerzas con un clan de humanos cazadores de vampiros que nunca supo que existían, los Nightstalkers. Junto a Abigail y Hannibal, Blade sigue la pista de una Antigua criatura que lo está acechando el vampiro original: Drácula.',
+        genres: [
+          'accion',
+          'terror',
+          'scifi'
+        ],
+        rate: '6.7',
+        length: '2hr 3mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/zIkhgzbxoMiv3RF1Jmr3juglAQG.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/55885wQeb8XISRccwnfVJ7DDJFM.jpg',
+        url: 'https://drive.google.com/file/d/13Pov3nOXzMFaSGDCtiWMbZU0eeHNAykF/preview'
+        
+      },
+      {
+        id: 73,
+        key: 'CAPITAN-AMERICA-EL-PRIMER-VENGADOR',
+        name: 'CAPITAN AMERICA EL PRIMER VENGADOR',
+        description: 'Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez. Enternecido por sus súplicas, el general Chester Phillips le ofrece la oportunidad de tomar parte en un experimento especial: la Operación Renacimiento. Tras meses de preparación y entrenamiento recibe su primera misión como Capitán América. Armado con un escudo indestructible y su inteligencia para la batalla, el Capitán América emprende la guerra contra el mal, como centinela de la libertad y como líder de los Vengadores.',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.9',
+        length: '2hr 4mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/vAOy3JW7JSiZBUwy72g8a8V6b1m.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/17hvMyOv06uun4ofZSN2BhZSxme.jpg',
+        url: 'https://drive.google.com/file/d/1_MmINehscxyewv36_pvR7X-6ZWN7JnuC/preview'
+        
+      },
+      {
+        id: 73,
+        key: 'CAPITAN-AMERICA-Y-EL-SOLDADO-DEL-INVIERNO',
+        name: 'CAPITAN AMERICA Y EL SOLDADO DEL INVIERNO',
+        description: 'Capitán América, Viuda Negra y un nuevo aliado, Falcon, se enfrentan a un enemigo inesperado mientras intentan sacar a la luz una conspiración que pone en riesgo al mundo.',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.9',
+        length: '2hr 4mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/6QBRnyvJHD7slOlX6aukvMwcEu.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/55zqM1Dt1kVFOQf0ddgjhS3SCf7.jpg',
+        url: 'https://drive.google.com/file/d/18njGWgZyBcRc4JrQjNVYwJeTmXTr9vq4/preview'
+        
+      },
+      {
+        id: 74,
+        key: 'CAPITAN-AMERICA-CIVIL-WAR',
+        name: 'CAPITAN AMERICA CIVIL WAR',
+        description: '"Captain America: Civil War” continúa la historia de “Avengers: Age of Ultron”, con Steve Rogers liderando un nuevo equipo de Vengadores en su esfuerzo por proteger a la humanidad. Tras otro incidente internacional relacionado con los Vengadores que ocasiona daños colaterales, la presión política fuerza a crear un sistema de registro y un cuerpo gubernamental para determinar cuándo se requiere los servicios del equipo. El nuevo status quo divide a los Vengadores mientras intentan salvar al mundo de un nuevo y perverso villano.',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.8',
+        length: '2hr 27mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/g6UTwUVFYWI8VPWo5GylnbZVhin.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/A1sO8cnVJbxPi4orypg6QOfmCnk.jpg',
+        url: 'https://drive.google.com/file/d/1t5XaSzt8eszip7bHorgELpXF4YfW9_vN/preview'
+        
+      },
+      {
+        id: 75,
+        key: 'CAPITANA-MARVEL',
+        name: 'CAPITANA MARVEL',
+        description: 'La historia sigue a Carol Danvers mientras se convierte en uno de los héroes más poderosos del universo, cuando la Tierra se encuentra atrapada en medio de una guerra galáctica entre dos razas alienígenas. Situada en los años 90, Capitana Marvel es una historia nueva de un período de tiempo nunca antes visto en la historia del Universo Cinematográfico de Marvel.',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.8',
+        length: '2hr 5mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/gQIQqdrhFdKBFEaZuZ117wkpqOJ.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/ozTR6OROWHCqZ6ZWlTogDFpHcEp.jpg',
+        url: 'https://drive.google.com/file/d/1rjDSOJct2KvGtg1f8UY9Fx1hzvAT92hn/preview'
+        
+      },
+      {
+        id: 76,
+        key: 'DAREDEVIL',
+        name: 'DAREDEVIL',
+        description: 'Un abogado ciego se convierte en un superhéroe nocturno que pone en manos de la justicia a los criminales de Nueva York',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.8',
+        length: '2hr 5mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/9Vu49OxWp6LYKsvaEFNokDzKWP3.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg',
+        url: 'https://drive.google.com/file/d/1NRpPGXAlp75xOJrndt8aVB3cBIYtDfAY/preview'
+        
+      },
+      {
+        id: 77,
+        key: 'DOCTOR-STRANGE',
+        name: 'DOCTOR STRANGE',
+        description: 'La vida del Dr. Stephen Strange cambia para siempre tras un accidente automovilístico que le deja muy malheridas sus manos. Cuando la medicina tradicional falla, se ve obligado a buscar esperanza y una cura en un lugar impensable: una comunidad aislada en Nepal llamada Kamar-Taj. Rápidamente descubre que éste no es sólo un centro de recuperación, sino también la primera línea de una batalla en contra de fuerzas oscuras y ocultas empeñadas en destruir nuestra realidad. En poco tiempo, Strange, armado con sus poderes mágicos recientemente adquiridos, se ve obligado a elegir entre volver a su antigua vida de riqueza y prestigio o dejarlo todo, para defender el mundo como el mago más poderoso del planeta.',
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.9',
+        length: '1hr 55mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/lxZRdSYXPLxnAQZmlG8civ2sfJr.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/eQN31P4IEhyp6NkdccvppJnyuJ4.jpg',
+        url: 'https://drive.google.com/file/d/1-T4UlIfuNwOqrEwEVVBMln6SGDnZXOXO/preview'
+        
+      },
+      {
+        id: 78,
+        key: 'EL-AVISPON-VERDE',
+        name: 'EL AVIPON VERDE',
+        description: 'De noche, Britt Reid (Seth Rogen), heredero del gran imperio periodístico creado por su padre (Tom Wilkinson), se convierte en un héroe enmascarado que se propone combatir el crimen: es The Green Hornet. Su compañero de aventuras es Jato (Jay Chou), un experto en artes marciales.',
+        genres: [
+          'accion',
+          'crimen',
+          'comedia'
+        ],
+        rate: '5.9',
+        length: '1hr 57mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/qvj0JmB1txRC0nQULRBdWwmj5xR.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/rST1USLBic6otxxKaquQkAS9931.jpg',
+        url: 'https://drive.google.com/file/d/1vKnL5qYeZpYKPw_CWRM6RHcEhkwOq1zA/preview'
+        
+      },
+      {
+        id: 79,
+        key: 'EL-HOMBRE-ARAÑA',
+        name: 'EL HOMBRE ARAÑA',
+        description: 'Peter Parker es un joven y tímido estudiante que vive con su tía May y su tío Ben desde la muerte de sus padres, siendo él muy pequeño. Peter está enamorado de su guapa vecina, pero su escaso carisma no le hace ser precisamente muy popular en el instituto. Un día es mordido por una araña que ha sido modificada genéticamente, descubriendo al día siguiente que posee unos poderes poco habituales: tiene la fuerza y agilidad de una araña. Las aventuras del hombre araña, basadas en el famoso cómic de Stan Lee y Steve Ditko, arrasó en las taquillas americanas y pulverizó los récords de recaudación en su primer fin de semana: 114 millones de dólares, la primera vez en la historia que se consiguió pasar de la barrera de los 100 millones en un fin de semana normal.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '7.1',
+        length: '2hr 1mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/rweIrveL43TaxUN0akQEaAXL6x0.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/zp33lkXqcZWyr7iMxzt3lNDtcPv.jpg',
+        url: 'https://drive.google.com/file/d/14l5RcbfeKY0MACgnIrJZ8SIKrTGIe7OV/preview'
+        
+      },
+      {
+        id: 80,
+        key: 'EL-HOMBRE-ARAÑA-2',
+        name: 'EL HOMBRE ARAÑA 2',
+        description: 'Han pasado dos años desde que el tranquilo Peter Parker dejó a Mary Jane Watson, su gran amor, y decidió seguir asumir sus responsabilidades como Spider-Man. Peter debe afrontar nuevos desafíos mientras lucha contra el don y la maldición de sus poderes equilibrando sus dos identidades: el escurridizo superhéroe Spider-Man y el estudiante universitario. Las relaciones con las personas que más aprecia están ahora en peligro de ser descubiertas con la aparición del poderoso villano de múltiples tentáculos Doctor Octopus, "Doc Ock". Su atracción por M.J. se hace más fuerte mientras lucha contra el impulso de abandonar su vida secreta y declarar su amor. Mientras tanto, M.J. ha seguido con su vida. Se ha embarcado en su carrera de actriz y tiene un nuevo hombre en su vida. La relación de Peter con su mejor amigo Harry Osborn se ha alejado por la creciente venganza de Harry contra Spider-Man, al que considera responsable de la muerte de su padre.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '7.1',
+        length: '2hr 16mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/1nIV4N6QOsMGsEgaQHHhdYX7lNJ.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/vqZnytUpDDAZI6JU7WtCqdq84L.jpg',
+        url: 'https://drive.google.com/file/d/1ya6qrRxC6PZ13Qi6YZ4xHHbpLeaFou06/preview'
+        
+      },
+      {
+        id: 81,
+        key: 'EL-HOMBRE-ARAÑA-3',
+        name: 'EL HOMBRE ARAÑA 3',
+        description: 'Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia volviéndose negro y aumentando sus poderes; también Peter se transforma, sacando el lado más oscuro y vengativo de su personalidad. Bajo la influencia de este nuevo traje, Peter deja de proteger a la gente que realmente lo quiere y se preocupa por él. En estas circunstancias, no tiene más remedio que elegir entre disfrutar del tentador poder del nuevo traje o seguir siendo el compasivo héroe de antes. Mientras tanto, dos temibles enemigos, Venom y el Hombre de Arena, utilizarán sus poderes para calmar su sed de venganza.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '7.1',
+        length: '2hr 19mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/ej5MReggbRv5yNKkAqwy4HkmJe.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/nVSkePSFsZNcMJsp8IOQVmHhyG1.jpg',
+        url: 'https://drive.google.com/file/d/17szJeUpnN8P-8suLItOSa-46qX_hDy_a/preview'
+        
+      },
+      {
+        id: 82,
+        key: 'EL-HOMBRE-DE-ACERO',
+        name: 'EL HOMBRE DE ACERO',
+        description: 'Un niño descubre que posee poderes extraordinarios y que no pertenece a este planeta. En su juventud, viaja para descubrir sus orígenes y las razones por las cuales ha sido enviado a la Tierra. Pero el héroe que lleva dentro tiene que emerger para que pueda salvar al mundo de la aniquilación y convertirse en el símbolo de esperanza para la humanidad.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '7.6',
+        length: '2hr 28mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/qcncHlqBNaEdA3ooV7X9Lqmlvqx.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/6lsvafjUX32pVbqvKcO12851TTt.jpg',
+        url: 'https://drive.google.com/file/d/1Hdo1BSJ_QBmZtzcKF1Xhp38hnxfOXEvX/preview'
+        
+      },
+      {
+        id: 83,
+        key: 'ELEKTRA',
+        name: 'ELEKTRA',
+        description: 'Elektra (Jennifer Garner), tras recuperarse de las mortales heridas sufridas en "Daredevil", se conviertre en la más peligrosa asesina del mundo. Una vez asignada su última misión, Elektra tomará una decisión que llevará su vida en una nueva dirección... o la destruirá para siempre.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'scifi'
+        ],
+        rate: '8.6',
+        length: '1hr 37mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/tPNM1iP7YS9w4OQsBOChLzbHmBF.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/muuUBPhE8qy5cJIB1XReY7VBkzN.jpg',
+        url: 'https://drive.google.com/file/d/1vjuuu9WhCJoDy5z9ZdZv6c0ad7hLXuFl/preview'
+        
+      },
+      {
+        id: 84,
+        key: 'X-MEN-ORIGENES',
+        name: 'X-MEN ORIGENES',
+        description: 'Precuela de la película X-Men. Situada 17 años antes, narra los inicios del arma X y la forma en la que Wolverine se convirtió en mutante. Logan, convertido en un mutante que se hace llamar Wolverine, y que es capaz de sacar unas afiladas garras y de una fuerza y agilidad sobrehumana, ultima su venganza contra Victor Creed, culpable de la muerte de su novia. Mientras tanto, otros mutantes se acogen al programa X para unir sus fuerzas..', 
+        genres: [
+          'accion',
+          'fantasia',
+          'scifi'
+        ],
+        rate: '8.6',
+        length: '1hr 47mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/lQAiASSFzY5SMud5f0Gu0C0jLlJ.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/wvqdJLVh0mSblly7UnYFPEk04Wd.jpg',
+        url: 'https://drive.google.com/file/d/1C55mGmZc6LewpmLpcV8CimjGrtws4plS/preview'
+        
+      },
+      {
+        id: 85,
+        key: 'ESCUADRON-SUICIDA',
+        name: 'ESCUADRON SUICIDA',
+        description: 'Mientras el gobierno de EE.UU no tiene claro cómo responder a una visita alienígena a la Tierra con intenciones malignas, Amanda El Muro Waller, la líder de la agencia secreta A.R.G.U.S., ofrece una curiosa solución: reclutar a los villanos más crueles, con habilidades letales e incluso mágicas, para que trabajen para ellos. Sin demasiadas opciones a dar una negativa, los ocho supervillanos más peligrosos del mundo acceden a colaborar con el Ejecutivo en peligrosas misiones secretas, casi suicidas, para así lograr limpiar su expediente.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.8',
+        length: '2hr 3mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/9ymhU7NclJr29MpZnBQbJurYbuc.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/1Nn2aBWB1x91GmvFm9F5SM2nQl3.jpg',
+        url: 'https://drive.google.com/file/d/1G1co2MBwhRsIV_cU0AUAgSCVrJz1AqNC/preview'
+        
+      },
+      {
+        id: 86,
+        key: 'LOS-CUATROS-FANTASTICOS',
+        name: 'LOS CUATROS FANTASTICOS',
+        description: 'Cuatro astronautas se convierten en superhéroes tras ser contaminados en el espacio exterior. En compañía del benefactor del proyecto, el ambicioso Von Doom (Julian McMahon), los cuatro parten para la exploración de sus vidas. La misión discurre sin incidentes hasta que Reed descubre que hay un error de cálculo en la velocidad con la que se acerca la tormenta. En unos minutos, el umbral de este fenómeno atmosférico está sobre ellos. La estación espacial se ve engullida por turbulentas nubes de radiación cósmica que cambian el genoma de la tripulación. Su ADN se ve irrevocablemente alterado.... y ése va a ser su futuro. De regreso a la Tierra, los efectos de la exposición muestran rápidamente sus primeros síntomas brindando a cada uno de ellos poderes sobrenaturales, convirtiéndose en Los Cuatro Fantásticos: Míster Fantástico, La Chica Invisible, La Antorcha Humana y La Cosa.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.1',
+        length: '1hr 45mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/ij3Nl6Jlx3CJBwXbIFaYYz1acna.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/beAj6f4tiqoRZxqOczYljjitNtC.jpg',
+        url: 'https://drive.google.com/file/d/1JbYVrZPd-IKHG18Y4zU8VuJPYiXEGCa8/preview'
+        
+      },
+      {
+        id: 87,
+        key: 'LOS-CUATROS-FANTASTICOS-Y-SILVER-SURFER',
+        name: 'LOS CUATROS FANTASTICOS Y SILVER SURFER',
+        description: 'La primera familia de superhéroes de Marvel, los Cuatro Fantásticos, se enfrentan a su mayor reto hasta la fecha cuando un enigmático heraldo intergaláctico, Estela Plateada, llega a la Tierra para prepararla para su destrucción. Mientras Estela Plateada recorre el mundo sembrando la destrucción, Reed, Sue, Johnny y Ben deben desentrañar el misterio de dicho personaje, y hacer frente al sorprendente regreso de su mortal enemigo el Doctor Muerte, antes de perder toda esperanza.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.1',
+        length: '1hr 32mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/tvFjow9ET16axWcQdXSBqehiFL1.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/4hPJT531skippmci5BfGrJYGfRv.jpg',
+        url: 'https://drive.google.com/file/d/1w7WHhvLT3ni61KYsAQuAZhkKAUQnzdp5/preview'
+        
+      },
+      {
+        id: 88,
+        key: 'GHOST-RIDER-EL-VENGADOR-FANTASMA',
+        name: 'GHOST RIDER EL VENGADOR FANTASMA',
+        description: 'Adaptación del famoso cómic de la Marvel. Hace mucho tiempo, la superestrella de las acrobacias en moto, Johnny Blaze (Nicolas Cage) hizo un trato con el diablo para proteger a los que más quería: su padre y su novia de la juventud, Roxanne (Eva Mendes). Ahora, el diablo ha venido a cobrar su deuda. De día, Johnny es un motero acróbata temerario... pero de noche, en presencia del diablo, se convierte en Ghost Rider, un cazarecompensas de demonios deshonestos. Obligado a hacer la voluntad del diablo, Johnny está decidido a enfrentarse a su destino y utilizar su maldición y sus poderes para defender al inocente.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'suspenso'
+        ],
+        rate: '7.0',
+        length: '1hr 50mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/beWg4c9XKFbmtLmMM6dIJYFS5XJ.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/ohfWCHT65P7b3kQvZnoy2BL95MB.jpg',
+        url: 'https://drive.google.com/file/d/1Dfrfg1TQzyX2Mn8YpELtAQd1NYbh4owA/preview'
+        
+      },
+      {
+        id: 89,
+        key: 'GHOST-RIDER-EL-CONTRATO-DE-SAN-VENGANZA',
+        name: 'GHOST RIDER EL CONTRATO DE SAN VENGANZA',
+        description: 'Nueva adaptación del cómic "El motorista fantasma". Con el fin de controlar sus deseos de venganza, Johnny Blaze (Nicolas Cage), que ve sus poderes como una maldición, vive apartado del mundo y sin relacionarse con nadie, pero acaba siendo localizado por el monje Moreau, que necesita su ayuda para buscar a Nadya y a su hijo Danny antes de que los encuentre Roarke, un viejo conocido de Blaze.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'suspenso'
+        ],
+        rate: '7.0',
+        length: '1hr 36mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/yokkUoswEXgPiNRZvQ2XrYCEbVp.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/vDpj9KXcAXvv5Z89zfighckL7pj.jpg',
+        url: 'https://drive.google.com/file/d/1Lg_kHKuenuouBeCbGPI_c6MpM7qfhdfW/preview'
+        
+      },
+      {
+        id: 90,
+        key: 'GUARDIANES-DE-LA-GALAXIA',
+        name: 'GUARDIANES DE LA GALAXIA ',
+        description: 'El temerario aventurero Peter Quill es objeto de un implacable cazarrecompensas después de robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuya ambición amenaza todo el universo. Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer. Pero cuando Quill descubre el verdadero poder de la esfera, deberá hacer todo lo posible para derrotar a sus extravagantes rivales en un intento desesperado de salvar el destino de la galaxia.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '8.0',
+        length: '2hr 2mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/iAAmnDsLuse01zjzFLrhJLDqUYh.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/gkYu744gqKYvCVTm6B69eAHZJdS.jpg',
+        url: 'https://drive.google.com/file/d/1ys0qj8Y9FY773WsoifQYoS8YbgmFKagj/preview'
+        
+      },
+      {
+        id: 91,
+        key: 'GUARDIANES-DE-LA-GALAXIA-VOL2',
+        name: 'GUARDIANES DE LA GALAXIA-VOL2',
+        description: 'Una poderosa raza alienígena contrata a los Guardianes para que protejan sus valiosas baterías de energía, pero, cuando Rocket las roba, los alienígenas envían a sus tropas de combate a vengarse de ellos. Mientras tratan de escapar con vida, intentan resolver el misterio de los verdaderos orígenes de Peter Quill.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '8.0',
+        length: '2hr 17mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/4KJ97gaTICl9cTMqoBCVoKhYCaF.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/tM894AtE7UQTJEoQG6qF6mdfSUT.jpg',
+        url: 'https://drive.google.com/file/d/1onvkUqScbMFFSq3HEw8meB6_6fPiRGMy/preview'
+        
+      },
+      {
+        id: 92,
+        key: 'IRON-MAN',
+        name: 'IRON MAN',
+        description: 'El multimillonario fabricante de armas Tony Stark debe enfrentarse a su turbio pasado después de sufrir un accidente con una de sus armas. Equipado con una armadura de última generación tecnológica, se convierte en "El hombre de hierro" para combatir el mal a escala global.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '8.2',
+        length: '2hr 6mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/8tZ1KaRTGfIGtfowZRWa9I71qbU.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/qbozjOW2txxIbscWfakaq8suPow.jpg',
+        url: 'https://drive.google.com/file/d/1YUICQ1ejy9zjLD7w6CG01haky3rovBpm/preview'
+        
+      },
+      {
+        id: 93,
+        key: 'IRON-MAN-2',
+        name: 'IRON MAN 2',
+        description: 'El mundo sabe que el multimillonario Tony Stark es Iron Man, el superhéroe enmascarado. Sometido a presiones por parte del gobierno, la prensa y la opinión pública para que comparta su tecnología con el ejército, Tony es reacio a desvelar los secretos de la armadura de Iron Man porque teme que esa información pueda caer en manos indeseables..', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '8.2',
+        length: '2hr 5mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/5tCA3oZXLRPHmS5DIDnlu7hY4Ab.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/jesRqfL9v6HNnowe795xjmuKUXl.jpg',
+        url: 'https://drive.google.com/file/d/1ZvI6oS2hDLKbNqHEGXxdqDkJ_F3Y9iZL/preview'
+        
+      },
+      {
+        id: 94,
+        key: 'IRON-MAN-3',
+        name: 'IRON MAN 3',
+        description: 'El descarado y brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez. Acorralado, Stark tendrá que sobrevivir por sus propios medios, confiando en su ingenio y su instinto para proteger a las personas que quiere.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '8.2',
+        length: '2hr 10mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/jcs4B2AiNPbVm8GFXNaTmvymR7x.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/tKa1gmGKAUVYnflYcadipeL3d9h.jpg',
+        url: 'https://drive.google.com/file/d/1lLW5ujykpI85gPU46HzUoX9AGhvIwZo6/preview'
+        
+      },
+      {
+        id: 95,
+        key: 'KICK-ASS',
+        name: 'KICK-ASS',
+        description: 'Dave Lizewski es un estudiante de instituto que pasa desapercibido por todos, aficionado a los cómics, de donde saca un día la idea de convertirse en un superhéroe, aunque no tenga superpoderes, no haya seguido un duro entrenamiento y ni siquiera tenga una razón significativa para ello. Pero la vida de Dave cambiará para siempre cuando se encuentre con un par de locos vigilantes -la terremoto de 11 años Hit Girl y su padre, Big Daddy- y forje amistad con otro joven luchador contra el crimen, Red Mist. Y cuando todos se tengan que enfrentar al jefe de la mafia local, Frank DAmico, sus alianzas y sus verdaderas habilidades serán puestas a prueba.', 
+        genres: [
+          'accion',
+          'crimen',
+          'scifi'
+        ],
+        rate: '7.2',
+        length: '1hr 57mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/lXDsqmcn0JP4YPdpNdub0xMiS8b.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/qHhuTmhRCYvj9ls4STFGnaeAPhR.jpg',
+        url: 'https://drive.google.com/file/d/1wRsVuWLuSx5wFhBVmzX5aA0PGVQCHYIl/preview'
+        
+      },
+      {
+        id: 96,
+        key: 'KICK-ASS-2',
+        name: 'KICK-ASS 2',
+        description: 'Secuela de la aclamada película Kick-Ass (2010), basada en el cómic de Mark Millar. Después de que la loca valentía de Kick-Ass (Aaron Taylor-Johnson) inspirara a toda una oleada de nuevos defensores del bien dirigidos por el durísimo coronel Stars and Stripes (Jim Carrey), nuestro héroe decide unirse a ellos. Pero cuando Bruma Roja (Christopher Mintz-Plasse), que regresa con el nombre de The Mother, decide deshacerse de los superhéroes aficionados, solo Hit Girl (Chloë Grace Moretz) podrá impedir que los aniquile.', 
+        genres: [
+          'accion',
+          'crimen',
+          'scifi'
+        ],
+        rate: '7.2',
+        length: '1hr 43mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/vUPNbrTpHkxIr7HZcvxFxvAWPbC.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/AkBLdx5W9rqUgQwm3jwjuRdFact.jpg',
+        url: 'https://drive.google.com/file/d/1dFzqQ-sZaF1YxRjCcKroywWqsBbE9tnm/preview'
+        
+      },
+      {
+        id: 97,
+        key: 'LA-MUJER-MARAVILLA',
+        name: 'LA MUJER MARAVILLA',
+        description: 'Antes de ser Wonder Woman, era Diana, princesa de las Amazonas, entrenada para ser una guerrera invencible. Diana fue criada en una isla paradisíaca protegida. Hasta que un día un piloto norteamericano, que tiene un accidente y acaba en sus costas, le habla de un gran conflicto existente en el mundo, la Primera Guerra Mundial. Diana decide salir de la isla convencida de que puede detener la terrible amenaza. Mientras lucha junto a los hombres en la guerra que acabará con todas las guerras, Diana descubre todos sus poderes y su verdadero destino.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.3',
+        length: '2hr 21mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/yjzHtHSAPDdRQejnTyFbifX2gef.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/aPEhtVLrZRnJufKHwbHgqwirv7J.jpg',
+        url: 'https://drive.google.com/file/d/1cwm6n5MkvgLGrIRJBsAh1PB5r5wGIFPb/preview'
+        
+      },
+      {
+        id: 98,
+        key: 'LOGAN',
+        name: 'LOGAN',
+        description: 'Sin sus poderes, por primera vez, Lobezno es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante.', 
+        genres: [
+          'accion',
+          'drama',
+          'scifi'
+        ],
+        rate: '7.8',
+        length: '2hr 17mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/hbJkbdwLNjHTomnXPD3jWlYm2U1.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/qTdCfGyDisY9e8BLycszlyTsPWx.jpg',
+        url: 'https://drive.google.com/file/d/1ct3PmnDDh84QFjUnGpFrsZCEbgBRi1pi/preview'
+        
+      },
+      {
+        id: 99,
+        key: 'SHAZAM',
+        name: 'SHAZAM',
+        description: 'Todos llevamos un superhéroe dentro, solo se necesita un poco de magia para sacarlo a la luz. Cuando Billy Batson, un niño de acogida de 14 años que ha crecido en las calles, grita la palabra SHAZAM!se convierte en el Superhéroe adulto Shazam, por cortesía de un antiguo mago. Dentro de un cuerpo musculoso y divino, Shazam esconde un corazón de niño. Pero lo mejor es que en esta versión de adulto consigue realizar todo lo que le gustaría hacer a cualquier adolescente con superpoderes: ¡divertirse con ellos! ¿Volar? ¿Tener visión de rayos X? ¿Disparar un rayo con las manos? ¿Saltarse el examen de sociales? Shazam va a poner a prueba los límites de sus habilidades con la inconsciencia propia de un niño. Pero necesitará dominar rápidamente esos poderes para luchar contra las letales fuerzas del mal que controla el Dr. Thaddeus Sivana.', 
+        genres: [
+          'accion',
+          'comedia',
+          'scifi'
+        ],
+        rate: '7.0',
+        length: '2hr 12mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/4f5Rz8uYpcTvo1hHKcQRSaay0ek.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/8q5q6wR67oIPpZk4zrgkMU1EgSp.jpg',
+        url: 'https://drive.google.com/file/d/10z1IaPT5nKo-wF8Pz__NJLkufO4FgenP/preview'
+        
+      },
+      {
+        id: 100,
+        key: 'LIGA-DE-LA-JUSTICIA',
+        name: 'LIGA DE LA JUSTICIA',
+        description: 'Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.', 
+        genres: [
+          'accion',
+          'aventura',
+          'scifi'
+        ],
+        rate: '7.5',
+        length: '2hr 1mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/A2AnLbZmaHyPA6oHjgri3KPjxoe.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/kpYGvWA9u4C1dAwZsnjHv7abtiq.jpg',
+        url: 'https://drive.google.com/file/d/1f1432ThuDYf3VELvQWANWFRwksMxl2pl/preview'
+        
+      },
+      {
+        id: 101,
+        key: 'SPAWN',
+        name: 'SPAWN',
+        description: 'Un mercenario llamado Al Simmons es traicionado y asesinado por su diabólico jefe. Cuando baja a los infiernos hace un pacto con el diablo para volver a la tierra bajo la figura de Spawn, y así poder volver a ver a su mujer.', 
+        genres: [
+          'accion',
+          'aventura',
+          'fantasia',
+          'terror',
+          'scifi'
+        ],
+        rate: '6.5',
+        length: '1hr 36mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/hB1z8EiEhCmSUD3UK4QXm5MPxGr.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/dE0Nj2b4Qlmsa9PgyzWBT7NgAhB.jpg',
+        url: 'https://drive.google.com/file/d/1087e_YNmx_5GhGOcF4DbQTlgXsw0ZVkL/preview'
+        
+      },
+      {
+        id: 102,
+        key: 'SPIDER-MAN-REGRESO-A-CASA',
+        name: 'SPIDER MAN REGRESO A CASA',
+        description: 'Peter Parker comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man. Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark, Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la vida de Peter comenzará a verse amenazado.', 
+        genres: [
+          'accion',
+          'aventura',
+          'drama',
+          'scifi'
+        ],
+        rate: '7.5',
+        length: '1hr 50mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/h1Iq6WfE4RWc9klGvN8sdi5aR6V.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg',
+        url: 'https://drive.google.com/file/d/1gW62gLqGKXSoEA7uSxUmX3Nd3QkonBrP/preview'
+        
+      },
+      {
+        id: 103,
+        key: 'SPIDER-MAN-LEJOS-DE-CASA',
+        name: 'SPIDER MAN LEJOS DE CASA',
+        description: 'Peter Parker decide irse junto a Michelle Jones, Ned y el resto de sus amigos a pasar unas vacaciones a Europa después de los eventos ocurridos en Vengadores: EndGame. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuándo es reclutado por Nick Fury para unirse a Mysterio (un humano que proviene de la Tierra 833, una dimensión del multiverso, que tuvo su primera aparición en Doctor Strange) para luchar contra los elementales (cuatro entes inmortales que vienen de la misma dimensión y que dominan los cuatro elementos de la naturaleza, el fuego, el agua, el aire y la tierra) . En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.', 
+        genres: [
+          'accion',
+          'aventura',
+          'drama',
+          'scifi'
+        ],
+        rate: '7.5',
+        length: '2hr 15mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/iDorDI5iNSBp57Jv5KiHHe43Y3k.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/6ihyJWRLEngSnlW8HKeDOH3AfSQ.jpg',
+        url: 'https://drive.google.com/file/d/1lWzooWF_kkjTeTW1xTfRkUX4muwAV3Fh/preview'
+        
+      },
+      {
+        id: 104,
+        key: 'LOS-VENGADORES',
+        name: 'LOS VENGADORES',
+        description: 'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel "Los Vengadores", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.', 
+        genres: [
+          'accion',
+          'aventura',
+          'drama',
+          'scifi'
+        ],
+        rate: '8.0',
+        length: '2hr 23mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/qZ9VEmoL3OaIVkkcaneRUKSaWzA.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/nNmJRkg8wWnRmzQDe2FwKbPIsJV.jpg',
+        url: 'https://drive.google.com/file/d/1TcDp4JS9KYI746M758mHVw1pYgQRILqn/preview'
+        
+      },
+      {
+        id: 105,
+        key: 'EL-INCREIBLE-HULK',
+        name: 'EL INCREIBLE HULK',
+        description: 'El científico Bruce Banner recorre el mundo tratando de encontrar una cura a su problema, en busca de un antídoto que le permita librarse de su Alter Ego. Perseguido por el ejército y por su propia rabia interna, es incapaz de sacar de su cabeza a Betty Ross. Así que se decide a volver a la civilización, donde debe enfrentarse a una criatura creada cuando el agente de la KGB, Emil Blonsky, se expone a una dosis superior de la radiación que convirtió a Bruce en Hulk. Incapaz de volver a su estado humano, Emil hace responsable a Hulk de su aterradora condición, mientras que la ciudad de Nueva York se convierte en el escenario de la última batalla entre las dos criaturas más poderosas que jamás han pisado la Tierra.', 
+        genres: [
+          'accion',
+          'aventura',
+          'drama',
+          'scifi'
+        ],
+        rate: '6.5',
+        length: '1hr 54mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/p4NYZXVtgKf6aiH65QzzkUVJcsd.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/cMZI5VrSv4L8ioHApQLqUkNS99o.jpg',
+        url: 'https://drive.google.com/file/d/1-pid2-fg4lMXoAf2_5XOqnMoWV87fWIh/preview'
+        
+      },
+      {
+        id: 106,
+        key: 'EL-CASTIGADOR',
+        name: 'EL CASTIGADOR',
+        description: 'Frank Castle (Thomas Jane) es un agente secreto del FBI que hasta el momento ha logrado una carrera intachable. Frank también es un ex operativo de las Fuerzas Especiales. Finalmente sale del campo de batalla para trabajar en una oficina y así poder tener una vida normal con su esposa e hijo. Será entonces cuando el mundo de Frank se viene abajo por el peor temor que siempre tuvo: Su familia es ejecutada como repercusión de su último trabajo. Ahora Castle busca castigar a los asesinos, para encontrar al final lo que menos esperaba: La redención.', 
+        genres: [
+          'accion',
+          'crimen',
+          'drama',
+          'scifi'
+        ],
+        rate: '6.2',
+        length: '2hr 4mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/bD0VrkWxs0tmJueFy0maRjWS7dW.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/Ao7mTUqaF84o4w2prRmjNgOXjIs.jpg',
+        url: 'https://drive.google.com/file/d/1R_PONKuN8WPRR5boFpILZeXcJPSqjfuR/preview'
+        
+      },
+      {
+        id: 107,
+        key: 'EL-CASTIGADOR-ZONA-DE-GUERRA',
+        name: 'EL CASTIGADOR ZONA DE GUERRA',
+        description: 'Película basada en el anti-héroe de Marvel Frank Castle, también conocido como "El castigador". Continuando su cruzada para castigar a criminales violentos en América, el agente del FBI Frank Castle (Ray Stevenson), llega a Nueva York en busca de un jefe que controla los bajos fondos de la ciudad. ', 
+        genres: [
+          'accion',
+          'crimen',
+          'drama',
+          'scifi'
+        ],
+        rate: '5.7',
+        length: '1hr 47mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/8X2r09vhgGc4dk0Es3jr2gFSD8o.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/bpanpGm2owc3vJpkzViLKj8VpBx.jpg',
+        url: 'https://drive.google.com/file/d/1UCzofIR0VdH2YFZawmYe70eH8VIrw8uA/preview'
+        
+      },
+      {
+        id: 108,
+        key: 'THOR',
+        name: 'THOR',
+        description: 'Thor es un arrogante y codicioso guerrero cuya imprudencia desata una antigua guerra. Por ese motivo, su padre Odín lo castiga desterrándolo a la Tierra para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Cuando el villano más peligroso de su mundo envía a la Tierra a las fuerzas más oscuras de Asgard, Thor se dará cuenta de lo que realmente hace falta para ser un verdadero héroe.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '6.7',
+        length: '1hr 55mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/jCEhPVVg14omDgWPN7vyAFUWzXZ.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/8rk1VyBbMbb6tVLQ8FzfyFxx5EP.jpg',
+        url: 'https://drive.google.com/file/d/1JdThcOsELC3xit8RoDSSBr_QSr07wRYa/preview'
+        
+      },
+      {
+        id: 109,
+        key: 'THOR-UN-MUNDO-OSCURO',
+        name: 'THOR UN MUNDO OSCURO',
+        description: 'Thor lucha por restablecer el orden en el cosmos, pero una antigua raza liderada por el vengativo Malekith regresa con el propósito de volver a sumir el universo en la oscuridad. Se trata de un villano con el que ni siquiera Odín y Asgard se atreven a enfrentarse; por esa razón, Thor tendrá que emprender un viaje muy peligroso, durante el cual se reunirá con Jane Foster y la obligará a sacrificarlo todo para salvar el mundo.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '6.7',
+        length: '1hr 52mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/gxnXMwF2jdKPz7siwlEtHgTUqz0.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/w5T8OK5rkkE8rXadSZHyZWqfNSX.jpg',
+        url: 'https://drive.google.com/file/d/1OaRfSY0WLbQbZ_mdZmUjEjY8-Hop3Sio/preview'
+        
+      },
+      {
+        id: 110,
+        key: 'THOR-RAGNAROK',
+        name: 'THOR RAGNAROK',
+        description: 'Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y parar el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela. Pero, primero deberá sobrevivir a una competición letal de gladiadores que lo enfrentará a su aliado y compañero en los Vengadores, ¡el Increíble Hulk!', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '7.6',
+        length: '2hr 11mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/sgVe7blGP5P71STv2TBXmO86qPo.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/15j6yep75STDBslA2UwgkKwtwml.jpg',
+        url: 'https://drive.google.com/file/d/1qzqR6B35QouRV0ijjP4ge2EGOec_qDok/preview'
+        
+      },
+      {
+        id: 111,
+        key: 'VENOM',
+        name: 'VENOM',
+        description: 'Eddie Brock (Tom Hardy) es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida. Esta fundación, dirigida por el eminente científico Carlton Drake (Riz Ahmed), está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes. Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte. Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer. Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '6.7',
+        length: '1hr 52mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/jMBTJQiHAyGlZR05J2sq5coA6ew.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg',
+        url: 'https://drive.google.com/file/d/1ujdQE3gmw-XWc5gNnZGbeyLCVbq9Jauv/preview'
+        
+      },
+      {
+        id: 112,
+        key: 'WOLVERINE-INMORTAL',
+        name: 'WOLVERINE INMORTAL',
+        description: 'Secuela de "X-Men: la decisión final". El film se centra en la soledad del protagonista tras la desaparición definitiva de Jean Grey y otros compañeros. Logan amnésico busca respuestas sobre su pasado en el mundo del crimen organizado de Japón, donde un hombre al que salvó la vida en el pasado le ofrece algo que lleva tiempo deseando: hacer a Wolverine mortal.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '6.5',
+        length: '2hr 6mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/p5IFVd8PQjcGk0KKaSP97jze3wP.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/AqIes6H9NlRoo0YjlO7exLCu72v.jpg',
+        url: 'https://drive.google.com/file/d/1DtW2fehBHG7NkX3huhw7_rBPcfVGLhrU/preview'
+        
+      },
+      {
+        id: 113,
+        key: 'X-MEN',
+        name: 'X MEN',
+        description: 'En un futuro cercano, la humanidad comienza a ver aparecer una nueva raza; los mutantes. Dotados de extraños y variados poderes, están agrupados en dos bandos: los que abogan por la integración y el entendimiento con la humanidad, encabezados por el doctor Charles Xavier, y los que buscan el enfrentamiento con una raza que consideran inferior y que les odia, dirigidos por Magnus, alias Magneto, un peligroso mutante con extraordinarios poderes.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '1hr 44mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/bojMb5j1dOHvD1cKffI0AW9ARkk.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/a6MwSrIKmMjs5b8os7eEgQk05yx.jpg',
+        url: 'https://drive.google.com/file/d/1Arptw-R3a0ndLEvb8AQZp0NDhwczsVyF/preview'
+        
+      },
+      {
+        id: 114,
+        key: 'X-MEN-2',
+        name: 'X MEN 2',
+        description: 'Los mutantes son seres humanos con alguna variación genética que les dota de características especiales. También son la más moderna minoría perseguida del mundo. En medio de un clima de rabia y persecución, el profesor Xavier ha creado un instituto, un refugio, para estos seres poderosos. En este lugar los iniciados son preparados para aceptar y dominar sus habilidades, y ponerlas al servicio de la tolerancia y el combate contra la creciente histeria colectiva que está amenazando con su existencia. Pero la reputación de los mutantes será todavía peor cuando uno de ellos lanza un devastador ataque, lo que conlleva causas una pública recriminación hacia todos ellos y nuevos poderes para la Mutant Registration Act y William Stryker, un líder militar que pretende acabar con todos ellos centrándose en la escuela de X-Men.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '2hr 13mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/8JjzEdEjHCAd4VZCvgMz8M5ekFg.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/aJG4Lrm2XlwjmIY4eA538b0JHvk.jpg',
+        url: 'https://drive.google.com/file/d/1l4c2hnRSmJgMjMTPpy40eGjOpjcSjIsm/preview'
+        
+      },
+      {
+        id: 115,
+        key: 'X-MEN-3',
+        name: 'X MEN 3',
+        description: 'En X-Men: La decisión final, el último capítulo de la trilogía cinematográfica de los "X-Men", hay una "cura" para los mutantes que amenaza con alterar el curso de la historia. Por primera vez, los mutantes pueden elegir: seguir con su singularidad, aunque eso les aísle y les separe, o renunciar a sus poderes y convertirse en seres humanos normales. Los opuestos puntos de vista de los líderes mutantes, Charles Xavier, que aboga por la tolerancia, y Magneto, que cree en la supervivencia de los más aptos, se ven sometidos a la prueba definitiva: desencadenar la guerra que pondrá fin a todas las guerras.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '1hr 45mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/6FnWDI3mKZhfWv7NznKUFlvSdo0.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/5PkkT6BL6xPaOXSa0RjPvEPVpmp.jpg',
+        url: 'https://drive.google.com/file/d/1lV2DMcv0slImSLqlEcsq8b8clC_qbLlO/preview'
+        
+      },
+      {
+        id: 116,
+        key: 'X-MEN-APOCALIPSIS',
+        name: 'X MEN APOCALIPSIS',
+        description: 'Desde los albores de la civilización, fue adorado como un dios. Apocalypse, el primer y más poderoso mutante del universo X-Men de Marvel, acumuló los poderes de muchos otros mutantes, convirtiéndose en inmortal e invencible. Pero al despertar tras miles de años, se encuentra desilusionado con el mundo en que se encuentra y decide reclutar un equipo de mutantes poderosos, entre ellos a un descorazonado Magneto (Michael Fassbender), con el fin de limpiar la humanidad y crear una nueva orden mundial, sobre la cual él reinará. A medida que el destino de la tierra está en juego, Raven (Jennifer Lawrence) con la ayuda del Profesor X (James McAvoy) se unirán junto a un equipo de jóvenes X-Men para detener a su mayor enemigo y salvar así a la humanidad de la destrucción total.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '2hr 24mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/6H7kfFsH7laKnMgJtaUYtOgEYRU.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/pCssRYbILVduCYDgrcRG0T8W4FN.jpg',
+        url: 'https://drive.google.com/file/d/1A9pWsXCkcoRBLtnDz6CEIfwN5syZwIhh/preview'
+        
+      },
+      {
+        id: 117,
+        key: 'X-MEN-EL-FENIX-OSCURO',
+        name: 'X MEN EL FENIX OSCURO',
+        description: 'Los X-Men se enfrentan a su enemigo más poderoso: uno de sus miembros, Jean Grey. Durante una misión de rescate en el espacio, Jean casi muere al ser alcanzada por una misteriosa fuerza cósmica. Cuando regresa a casa, esa radiación la ha hecho más poderosa, pero mucho más inestable. Mientras lucha con la entidad que habita en su interior, Jean desata sus poderes de formas que no puede controlar ni comprender. Jean cae en una espiral fuera de control haciendo daño a aquellos que más ama y empieza a destruir los lazos que mantienen unidos a los X-Men.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '1hr 56mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/ks3b0jNq10KmnFK9CWL1FpVEuMY.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/lkO04dvBgbipQRR4V8RdPWaLT7v.jpg',
+        url: 'https://drive.google.com/file/d/1xUHBQUatIrHx7Wtg-0xXBbUXDTva3AWy/preview'
+        
+      },
+      {
+        id: 118,
+        key: 'X-MEN-DIAS-DEL-FUTURO-PASADO',
+        name: 'X MEN DIAS DEL FUTURO PASADO ',
+        description: 'Ambientada en la década de los 70, los miembros de la famosa Patrulla X tendrán que evitar un futuro apocalíptico en el que los mutantes luchan por sobrevivir en campos de concentración controlados por los temibles Centinelas. Para ello, los héroes del universo Marvel deberán unificar sus fuerzas dejando a un lado la creciente enemistad de los bandos liderados por Charles Xavier y Magneto. Trask Industries, la empresa encargada de crear a estos gigantescos cazamutantes, será el origen de todos sus problemas. Tan sólo viajando en el tiempo podrán impedir la masacre que se avecina. ¿Serán capaces nuestros héroes de derrocar a la multinacional y evitar así el exterminio de su especie?', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '2hr 10mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/yTVqNNp7hWFrFtzxAo5bdVUBuz0.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/hUPgIibqZlwbhs4N08cPzzc4f5K.jpg',
+        url: 'https://drive.google.com/file/d/1in86830KgydsJjnf5WukCTxf8gB8aYIh/preview'
+        
+      },
+      {
+        id: 119,
+        key: 'X-MEN-PRIMERA-GENERACION',
+        name: 'X MEN PRIMERA GENERACION',
+        description: 'Comienzo de la saga de los X-Men, esta es una historia secreta que alude a conocidos acontecimientos mundiales. Antes de que los mutantes se mostraran al mundo, y antes de que cambiaran sus nombres por los de Profesor X y Magneto, Charles Xavier (James McAvoy) y Erik Lehnsherr (Michael Fassbender) eran dos jóvenes que descubrían sus poderes. No había animadversión alguna entre ellos, sino que les unía una sincera amistad y la decisión de acabar con el trabajar juntos y entrenar a un grupo de jóvenes mutantes para evitar el Armagedón nuclear. Su enemigo común: el malvado Sebastian Shaw (Kevin Bacon), un humano con poderes con el que Erik tiene una cuenta pendiente.', 
+        genres: [
+          'accion',
+          'scifi',
+          'aventura'
+        ],
+        rate: '7.0',
+        length: '2hr 11mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/p63jtwBMlec3pLffxHFqs6kOI5P.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/4Ky8OcB0F7x3PRZQIiFFZyf3eIX.jpg',
+        url: 'https://drive.google.com/file/d/1qP0bT2mTbisMXpwQFm9lvB6Bdt2U8svR/preview'
+        
+      },
+      {
+        id: 120,
+        key: 'BATMAN-VS-SUPERMAN',
+        name: 'BATMAN VS SUPERMAN',
+        description: 'Ante el temor de las acciones que pueda llevar a cabo Superman, el vigilante de Gotham City aparece para poner a raya al superhéroe de Metrópolis, mientras que la opinión pública debate cuál es realmente el héroe que necesitan. El hombre de acero y Batman se sumergen en una contienda territorial, pero las cosas se complican cuando una nueva y peligrosa amenaza surge rápidamente, poniendo en jaque la existencia de la humanidad.', 
+        genres: [
+          'accion',
+          'fantasia',
+          'aventura'
+        ],
+        rate: '5.9',
+        length: '2hr 33mins',
+        img: 'https://image.tmdb.org/t/p/w220_and_h330_face/mS3t9puIjLKgoex82cu9d6G0835.jpg',
+        cover: 'https://image.tmdb.org/t/p/w500_and_h282_face/owSJfU25QxFOSaOdnMAsHqOwY7G.jpg',
+        url: 'https://drive.google.com/file/d/1cuqjAUcpldPOeDbyki12R5qVAjQt4eZD/preview'
         
       },
     ];
