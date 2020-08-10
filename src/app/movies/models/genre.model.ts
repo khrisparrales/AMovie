@@ -3,12 +3,14 @@ export enum Genre {
   Accion = 'accion',
   Aventura = 'aventura',
   Biografia = 'biografia',
-  Comedia = 'comedia',
-  Crimen = 'crimen',
-  Drama = 'drama',
+  Comedia = 'Comedia',
+  Crimen = 'Crimen',
+  Drama ='Drama',
+  Fantasía='Fantasía',
   Historia = 'historia',
-  Mysterio = 'mysterio',
+  Misterio = 'Misterio',
   Scifi = 'scifi',
   Deporte = 'deporte',
-  Terror = 'terror'
+  Terror = 'Terror',
+  Suspense='Suspense'
 }
