@@ -2243,6 +2243,133 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         url:
           "https://drive.google.com/file/d/13gxpbR_538Y3MiOjgs_ZhePvxLhEuqR1/preview",
       },
+      {
+        id: 37247,
+        key: "El%20graduado",
+        name: "El graduado",
+        description:
+          "Benjamin Braddock (Dustin Hoffman) vuelve a casa después de terminar sus estudios universitarios. Es un joven que alberga un gran rencor contra la hipocresía y la corrupción de la sociedad que lo rodea. La señora Robinson (Anne Bancroft), una amiga de la familia, se encapricha de él y lo hace su amante. Pero cuando Benjamin conoce a Elaine (Katharine Ross), la hija de la señora Robinson, todo se complica...",
+        genres: ["Comedia", "Drama"],
+        rate: 7.7,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//85tDae3l4zewFKEYJUx6FLGVjQ0.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//5DRTA4sf3D4FXZjquH8ph7uG7s3.jpg",
+        url:
+          "https://drive.google.com/file/d/1Yw8kw32UOTbCQdBHTcAt7j3UVFXwzCmL/preview",
+      },
+      {
+        id: 9341,
+        key: "El%20n%C3%BAcleo",
+        name: "El núcleo",
+        description:
+          "Los científicos descubren que el corazón del planeta Tierra va a detener su movimiento giratorio, lo que causará un tremendo desastere natural, eliminando la vida tal y como la conocemos. Un grupo de científicos son reclutados para una peligrosa misión al centro de la tierra que pueda prevenir la catástrofe.",
+        genres: ["Acción", "Suspense"],
+        rate: 5.6,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//l4HpogVLiVtx0LWW8XuJoWT7WfZ.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//v2YxWPX2yKdo6arIAknJzKLxhZY.jpg",
+        url:
+          "https://drive.google.com/file/d/1oqJk3QUOp_AhEv752gwxkkKr7dPvIWZ2/preview",
+      },
+      {
+        id: 7299,
+        key: "Equilibrium",
+        name: "Equilibrium",
+        description:
+          'En el mundo del futuro, un régimen estricto ha eliminado las guerras al haber superado las emociones. Los libros, el arte y la música están totalmente prohibidos, y los sentimientos se consideran un crimen castigado con la pena de muerte. El clérigo John Preston (Christian Bale) es un agente de élite del gobierno, responsable de combatir aquellos que osen desafiar las reglas. Cuando pierde una dosis de "Prozium", una droga que altera la mente para ocultar sus emociones, toda su escala de valores cambiará de manera súbita.',
+        genres: ["Acción", "Ciencia ficción"],
+        rate: 7,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//vO0SyoE0D0LYX1hFxu60VnjC5zY.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//cIU78P8fjPsXj4IHQDH4Vq98GNz.jpg",
+        url:
+          "https://drive.google.com/file/d/1xOkAhak1EAe9umfKxde7iOPRpJDZSgI0/preview",
+      },
+      {
+        id: 10061,
+        key: "2013%3A%20Rescate%20en%20L.A.",
+        name: "2013: Rescate en L.A.",
+        description:
+          "El hombre del ojo tapado ha vuelto, llámale Serpiente. Kurt Russell se une de nuevo a John Carpenter y Debra Hill para hacer con la Gran Naranja lo que ya hicieron con la Gran Manzana en 1997: Huida de Nueva York, pero con más emociones y más acción, en un futuro no muy lejano. Serpiente Plissken llega a Los Ángeles del año 2013, destruida por un terremoto de 9.6.Su misión: abrirse camino entre las ruinas de L.A. para recuperar un dispositivo que puede acabar con el planeta. No se pierdan la excitación que produce ver a Serpiente surfear por Wilshyre Blvd., esquivar disparos en el Coliseum, bucear entre las bombas del parque temático de Happy Kingdom y mezclarse con la combinación más salvaje de amigos, demonios y enemigos.2013: Rescate en L.A. es una locura repleta de acción.",
+        genres: ["Acción", "Aventura"],
+        rate: 5.9,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//3L9lL2eUsmLNNfENPwNOc82Hzpw.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//bLedLNwTzfDOSN6JVAOt7ykAzu7.jpg",
+        url:
+          "https://drive.google.com/file/d/1CbNaQmM957-VL6ys_JQrs5hBGMIJwydr/preview",
+      },
+      {
+        id: 539537,
+        key: "Fantasy%20Island",
+        name: "Fantasy Island",
+        description:
+          "El enigmático Sr. Roarke hace realidad los sueños de los afortunados huéspedes que acuden a su lujoso y remoto resort tropical. Sin embargo, sus fantasías se convertirán en pesadillas, y los invitados deberán resolver el misterio que oculta la isla para poder escapar con vida. Adaptación en clave de terror del famoso programa de televisión de los años 70 ambientado en un resort ubicado en una isla mágica.",
+        genres: ["Aventura", "Fantasía"],
+        rate: 6.2,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//y0ZX1ymtnZ4ATsQJjXTPaG9RdWD.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//27WkMAcrLJYgmJcgbNvzMh2qw70.jpg",
+        url:
+          "https://drive.google.com/file/d/1WR39OSvOooG3_1gSLpeKvFTRnPgcpi4R/preview",
+      },
+      {
+        id: 232842,
+        key: "The%20Flash",
+        name: "The Flash",
+        description:
+          "John Wesley Shipp interpreta a un modesto químico de un laboratorio oficial, cuyo padre y abuelo son policías. Durante un accidente, él sufre una mutación prodigiosa, por la cual ahora toma la identidad de Flash, un ser increíblemente veloz. Sus nuevas capacidades serán muy apreciadas en Central City, a la hora de luchar contra una banda de punks motociclistas que se dedican al crimen y al vicio abyecto.",
+        genres: ["Acción", "Crimen"],
+        rate: 6.6,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//yzIBlpyufPoL9ujOOizLktHRFev.jpg",
+        cover: "https://image.tmdb.org/t/p/original/null",
+        url:
+          "https://drive.google.com/file/d/15hdCF5zCOHnV3wk8ybPWmwjqU5pTkIUP/preview",
+      },
+      {
+        id: 314,
+        key: "Catwoman",
+        name: "Catwoman",
+        description:
+          "Patience Philips (Halle Berry) es una mujer sumisa y siempre dispuesta a agradar a la gente, que trabaja como diseñadora gráfica para el gigantesco laboratorio de cosméticos Hedare Beauty, dirigido por el despótico George Hedare (Lambert Wilson) y su esposa, la supermodelo Laurel (Sharon Stone). La tímida Patience se entera por casualidad de un siniestro secreto sobre un revolucionario producto antienvejecimiento de la compañía que pronto va a salir a la venta y se ve envuelta en una conspiración. Justo entonces es salvada de la muerte al renacer con la fuerza, la velocidad, la agilidad y los agudísimos sentidos de un gato. En su nueva vida de venganzas como Catwoman la guiará una misteriosa mujer llamada Ophelia Powers (Frances Conroy).",
+        genres: ["Acción", "Fantasía"],
+        rate: 4.5,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//l40ot7UBtLOmse1qn4NI97w3ve3.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//x7fK0oOUX8Ks1B1lZsACmCXUybI.jpg",
+        url:
+          "https://drive.google.com/file/d/14NjKCb0bTx4BcmObFf7VdHF3M5aW_XGE/preview",
+      },
+      {
+        id: 10136,
+        key: "El%20chico%20de%20oro",
+        name: "El chico de oro",
+        description:
+          "Chandler Jarrell es un detective especializado en buscar niños perdidos. Se le encomienda la misión de encontrar y proteger a un niño budista que posee poderes mágicos llamado el Chico de Oro, que ha sido raptado según sus tutores por un maligno hechicero. Jarrell es escéptico respecto a la magia y a los poderes sobrenaturales, pero a medida que avanza en el caso, descubre evidencias suficientes para empezar a dudar.",
+        genres: ["Acción", "Aventura"],
+        rate: 5.8,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//zvm91TyaYRbf09RDwmLANLlit3n.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//kDeUbLBib2mFtX1h4FZ4tGQphyP.jpg",
+        url:
+          "https://drive.google.com/file/d/1kgsGHwmzxIaoETY3Qobt5PM2MVS94WZk/preview",
+      },
     ];
     return { movies };
   }
