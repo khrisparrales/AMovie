@@ -2738,6 +2738,38 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         url:
           "https://drive.google.com/file/d/1v7pBFBlsaxqea-A8OJizaLH7IaKDFU3_/preview",
       },
+      {
+        id: 620883,
+        key: "La%20corazonada",
+        name: "La corazonada",
+        description:
+          "Una novata y un detective investigan el asesinato de una chica de diecinueve años. La principal sospechosa es su mejor amiga.",
+        genres: ["Suspense", "Crimen"],
+        rate: 6.5,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//zOQ8G8Ov8O1EzJgfWWQnowJeYlV.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//prnq2ONhqo9Tga7dOMZKgFJMofs.jpg",
+        url:
+          "https://drive.google.com/file/d/1R9ke3DezcXMyGpCmPhsrv52vAp67kEc8/preview",
+      },
+      {
+        id: 2135,
+        key: "La%20m%C3%A1quina%20del%20tiempo",
+        name: "La máquina del tiempo",
+        description:
+          "El científico e inventor Alexander Hartdegen ha tomado la decisión de probar que los viajes a través del tiempo son posibles. Una tragedia personal que lo ha sumido en la desesperación es la razón de su deseo de volver al pasado. Pero la máquina de su invención, en contra de sus deseos, lo lleva al futuro (800.000 después), donde descubre que la humanidad se ha dividido en dos bandos: perseguidores y perseguidos.",
+        genres: ["Ciencia ficción", "Aventura"],
+        rate: 6.1,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//ir4elJEr8mbCBIMFgsQG6m01aS1.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//i0eOILDW8HipIkOUSKhB1dvZzNJ.jpg",
+        url:
+          "https://drive.google.com/file/d/1qJ3r8HFbUWKiKTZAiKWeFDSo-3NGJYuI/preview",
+      },
     ];
     return { movies };
   }
