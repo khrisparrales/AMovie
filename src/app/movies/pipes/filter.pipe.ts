@@ -1,16 +1,15 @@
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'filter'
+  name: "filter",
 })
-
 export class FilterPipe implements PipeTransform {
   transform(items: any[], searchText: string): any[] {
     if (items && items.length) {
-      return items.filter(item => {
+      return items.filter((item) => {
         if (
           searchText &&
-          item.name.toLowerCase().indexOf(searchText.toLowerCase()) === -1
+          item.name.toLowerCase().indexOf(searchText) === -1
         ) {
           return false;
         }

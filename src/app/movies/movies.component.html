@@ -1,48 +1,44 @@
 <div class="search-bar">
-  <img src="assets/icons/search.svg" alt="search icon">
-  <input [(ngModel)]="searchText" name="searchText" type="search" placeholder="Buscar" aria-label="Search">
+    <img src="assets/icons/search.svg" alt="search icon">
+    <input [(ngModel)]="searchText" name="searchText" type="search" placeholder="Buscar" aria-label="Search">
 </div>
 <div class="main-container">
-<div class="genres-list">
-  <span class="title">Generos</span>
-  <hr>
-  <ul class="genre-list-items">
-    <li *ngFor="let genre of genres | enumToArray">
-      <a
-        [ngClass]="{'active': genre.toLowerCase() == selectedGenre}"
-        [routerLink]="['/movies/']"
-        [queryParams]="{filter:genre.toLowerCase()}"
-        (click)="changeFilter($event)">
+    <div class="genres-list">
+        <span class="title">Generos</span>
+        <hr>
+        <ul class="genre-list-items">
+            <li *ngFor="let genre of genres | enumToArray">
+                <a [ngClass]="{'active': genre == selectedGenre}" [routerLink]="['/movies/']" [queryParams]="{filter:genre}" (click)="changeFilter($event)">
         {{genre}}
       </a>
-    </li>
-  </ul>
-</div>
-<app-loading-spinner [loading]="!visibleMovies"></app-loading-spinner>
-<div *ngIf="visibleMovies" class="movies-container" [@simpleFadeAnimation]="'in'">
-  <div class="movies-list-header">
-    <span class="count">
+            </li>
+        </ul>
+    </div>
+    <app-loading-spinner [loading]="!visibleMovies"></app-loading-spinner>
+    <div *ngIf="visibleMovies" class="movies-container" [@simpleFadeAnimation]="'in'">
+        <div class="movies-list-header">
+            <span class="count">
       {{visibleMovies.length}} Peliculas
     </span>
-    <div class="sort">
-      ORDENADO POR:
-      <select [(ngModel)]="sortBy">
+            <div class="sort">
+                ORDENADO POR:
+                <select [(ngModel)]="sortBy">
         <option value="rate">Puntuacion</option>
         <option value="id">Recientes</option>
       </select>
+            </div>
+        </div>
+        <hr>
+        <div class="movies-list">
+            <div *ngFor="let movie of visibleMovies | filter: searchText | sort: sortBy" class="movie">
+                <a [routerLink]="['/movies/' + movie.id + '/' + movie.key]">
+                    <figure>
+                        <img src="{{movie.img}}" alt="movie poster">
+                    </figure>
+                    <span class="title">{{movie.name}}</span>
+                    <span class="rate">{{movie.rate}}</span>
+                </a>
+            </div>
+        </div>
     </div>
-  </div>
-  <hr>
-  <div class="movies-list">
-    <div *ngFor="let movie of visibleMovies | filter: searchText | sort: sortBy" class="movie">
-      <a [routerLink]="['/movies/' + movie.id + '/' + movie.key]">
-        <figure>
-          <img src="{{movie.img}}" alt="movie poster">
-        </figure>
-        <span class="title">{{movie.name}}</span>
-        <span class="rate">{{movie.rate}}</span>
-      </a>
-    </div>
-  </div>
-</div>
 </div>

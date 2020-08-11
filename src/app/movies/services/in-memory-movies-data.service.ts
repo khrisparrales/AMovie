@@ -1,16 +1,16 @@
-import { InMemoryDbService } from 'angular-in-memory-web-api';
+import { InMemoryDbService } from "angular-in-memory-web-api";
 
 export class InMemoryMoviesDataService implements InMemoryDbService {
   createDb() {
     const movies = [
       {
-        id: 1,
+        id: 20200212,
         key: "Sonic",
         name: "sonic",
         description:
           "Sonic, el descarado erizo azul basado en la famosa serie de videojuegos de Sega, vivirá aventuras y desventuras cuando conoce a su amigo humano y policía, Tom Wachowski (James Marsden). Sonic y Tom unirán sus fuerzas para tratar de detener los planes del malvado Dr. Robotnik (Jim Carrey), que intenta atrapar a Sonic con el fin de emplear sus inmensos poderes para dominar el mundo.",
-        genres: ["accion", "aventura", "comedia"],
-        rate: "8.6",
+        genres: ["Acción", "Aventura", "Comedia"],
+        rate: "7.5",
         length: "1hr 48mins",
         img:
           "https://image.tmdb.org/t/p/w220_and_h330_face/jYbANSoj6qGTbDkstq9J5Vy8fRF.jpg",
@@ -20,12 +20,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1DZ3LworS8tph3WjC5Df_HCwSVlDBtqeX/preview",
       },
       {
-        id: 2,
+        id: 20130807,
         key: "QUIENES-SON-LOS-MILLERS",
         name: "QUIENES SON LOS MILLERS",
         description:
           "Un traficante de marihuana se crea una familia ficticia con una stripper y dos jóvenes como parte de su plan para pasar un gran cargamento de Estados Unidos a México.",
-        genres: ["aventura", "comedia", "crimen"],
+        genres: ["Aventura", "Comedia", "crimen"],
         rate: "7.0",
         length: "1hr 50mins",
         img:
@@ -36,12 +36,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1kLxKsTRYKWXYKM0qojuL-eYJv_cNCPxa/preview",
       },
       {
-        id: 3,
+        id: 20170606,
         key: "LA-MOMIA",
         name: "LA MOMIA",
         description:
           "A pesar de estar enterrada en una tumba en lo más profundo del desierto, una antigua princesa (Sofia Boutella) cuyo destino le fue arrebatado injustamente, se despierta en la época actual, trayendo consigo una maldición que ha crecido hasta límites insospechados con el paso de miles de años.",
-        genres: ["action", "adventure", "fantasia", "suspenso"],
+        genres: ["Acción", "Aventura", "Fantasia", "Suspense"],
         rate: "6.9",
         length: "1hr 50mins",
         img:
@@ -52,12 +52,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           " https://drive.google.com/file/d/1IZLRgGwOXFNBRUkvLZ8bNV1Xr2CF3c4x/preview",
       },
       {
-        id: 4,
+        id: 19970502,
         key: "EL-QUINTO-ELEMENTO",
         name: "EL QUINTO ELEMENTO",
         description:
           "Cada 5.000 años se abre una puerta entre las dimensiones. En una dimensión existe el Universo y la vida. En la otra dimensión existe un elemento que no está hecho ni de tierra, ni de fuego, ni de aire, ni de agua, sino que es una anti-energía, la anti-vida: es el quinto elemento.",
-        genres: ["action", "adventure", "fantasia"],
+        genres: ["Acción", "Aventura", "Fantasia"],
         rate: "6.9",
         length: "2hr 28mins",
         img:
@@ -68,12 +68,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/17NBLv-n_m-jND_0EdsXHkmM1vA-sEaKd/preview",
       },
       {
-        id: 5,
+        id: 20120523,
         key: "HOMBRES-DE-NEGROS-3",
         name: "HOMBRES DE NEGROS 3",
         description:
           'Comienza con la fuga de un extraño y poderoso extraterrestre llamado Boris el animal. Es el último superviviente de la raza alienígena boglodita, que sobrevive mediante el ataque, toma, y ocupación de otros planetas habitados. Boris es un asesino, que fue capturado por el agente K y encarcelado en una prisión secreta en la Luna. K también pudo desplegar un sistema de defensa (denominado "Arca Net"), y evitar una invasión boglodita, logrando así su extinción. Sin embargo, Boris logra burlar la seguridad y destruir gran parte de la cárcel, para escapar y vengarse de K.',
-        genres: ["action", "comedia", "scifi"],
+        genres: ["Acción", "Comedia", "Cienciaficción"],
         rate: "6.9",
         length: "2hr 28mins",
         img:
@@ -84,12 +84,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/16s1gJyUA01dNblzE8EzWJwanY1-SI9ZI/preview",
       },
       {
-        id: 6,
+        id: 20020315,
         key: "RESIDENT-EVIL",
         name: "RESIDENT EVIL",
         description:
           "En un centro clandestino de investigación genética -con fines militares- de una poderosa multinacional se produce un brote vírico que contamina todo el edificio. Para contener la fuga el ordenador que controla el centro sella toda la instalación y, en un principio se cree que mueren todos los empleados, pero en realidad se han convertido en feroces zombis...",
-        genres: ["action", "terror", "scifi"],
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "6.9",
         length: "1hr 36mins",
         img:
@@ -100,12 +100,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1fNGkemtlpN3qvZOvR0N5Eu5JY9BbIpj6/preview",
       },
       {
-        id: 7,
+        id: 20171209,
         key: "JUMANJI-BIENVENIDO-A-LA-JUMGLA",
         name: "JUMANJI BIENVENIDO A LA JUNGLA",
         description:
           "Cuatro adolescentes son absorbidos por un videojuego, en el que se convierten en avatares de personajes arquetípicos. Allí vivirán múltiples aventuras, al tiempo que buscan cómo salir de allí para volver a su mundo.",
-        genres: ["action", "aventura", "comedia", "fantasia"],
+        genres: ["Acción", "Aventura", "Comedia", "Fantasia"],
         rate: "7.9",
         length: "1hr 59mins",
         img:
@@ -116,12 +116,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1vj06hvqtk0matqdOJ1Fxg5zQXHfj0OQ6/preview",
       },
       {
-        id: 8,
+        id: 20191204,
         key: "JUMANJI-EL-SIGUIENTE-NIVEL",
         name: "JUMANJI EL SIGUIENTE NIVEL",
         description:
           " Los jugadores vuelven al juego, pero sus personajes se han intercambiado entre sí, lo que ofrece un curioso plantel: los mismos héroes con distinta apariencia. Pero, ¿dónde está el resto de la gente? Los participantes sólo tienen una opción: jugar una vez más a esta peligrosa partida para descubrir qué es realmente lo que está sucediendo.",
-        genres: ["action", "aventura", "comedia", "fantasia"],
+        genres: ["Acción", "Aventura", "Comedia", "Fantasia"],
         rate: "8.0",
         length: "2hr 5mins",
         img:
@@ -132,12 +132,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1mlr-ZU64FMhccc1jZyJlBAJ303iljzLY/preview",
       },
       {
-        id: 9,
+        id: 20150422,
         key: "VENGADORES-LA-ERA-DE-ULTON",
         name: "VENGADORES LA ERA DE ULTRON",
         description:
-          "Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego. Cuando el villano Ultron emerge, le corresponderá a Los Vengadores detener sus terribles planes, que junto a incómodas alianzas llevarán a una inesperada acción que allanará el camino para una épica y única aventura.",
-        genres: ["action", "aventura", "scifi"],
+          "Cuando Tony Stark intenta reactivar un programa caído en desuso cuyo objetivo es mantener la paz, las cosas empiezan a torcerse y los héroes más poderosos de la Tierra, incluyendo a Iron Man, Capitán América, Thor, El Increíble Hulk, Viuda Negra y Ojo de Halcón, tendrán que afrontar la prueba definitiva cuando el destino del planeta se ponga en juego. Cuando el villano Ultron emerge, le corresponderá a Los Vengadores detener sus terribles planes, que junto a incómodas alianzas llevarán a una inesperada acción que allanará el camino para una épica y única Aventura.",
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 20mins",
         img:
@@ -148,12 +148,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1FUPf2o95L0gjRQxvocWTySdQJb7oOrOC/preview",
       },
       {
-        id: 10,
+        id: 20180425,
         key: "VENGADORES-INFINITY-WAR",
         name: "VENGADORES INFINITY WAR",
         description:
           "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
-        genres: ["action", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 36mins",
         img:
@@ -164,12 +164,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1zVyD3NaWalUUFq7Qq60q45YwOPFViS6c/preview",
       },
       {
-        id: 11,
+        id: 20190424,
         key: "LOS-VENGADORES-ENDGAME",
         name: "LOS VENGADORES ENDGAME",
         description:
-          "Después de los eventos devastadores de Vengadores Infinity War el universo está en ruinas debido a las acciones de Thanos. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar deshacer sus acciones y restaurar el orden en el universo de una vez por todas, sin importar cuáles sean las consecuencias... Cuarta y última entrega de la saga Vengadores.",
-        genres: ["action", "aventura", "scifi"],
+          "Después de los eventos devastadores de Vengadores Infinity War el universo está en ruinas debido a las Acciónes de Thanos. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar deshacer sus Acciónes y restaurar el orden en el universo de una vez por todas, sin importar cuáles sean las consecuencias... Cuarta y última entrega de la saga Vengadores.",
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "3hr 1mins",
         img:
@@ -180,12 +180,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1f2EX62UBS3vb0FPsLqMyxz3XNGB4m1Gz/preview",
       },
       {
-        id: 12,
+        id: 20130711,
         key: "TITANES-DEL-PACIFICO",
         name: "TITANES DEL PACIFICO",
         description:
           "Cuando legiones de monstruosas criaturas, denominadas Kaiju, comienzan a salir del mar, se inicia una guerra que acabará con millones de vidas y que consumirá los recursos de la humanidad durante interminables años. Para combatir a los Kaiju gigantes diseñan un tipo especial de arma: enormes robots, llamados Jaegers, que son controlados simultáneamente por dos pilotos cuyas mentes están bloqueadas en un puente neural. Pero incluso los Jaegers proporcionan poca defensa ante los incansables Kaiju. A punto de la derrota, las fuerzas que defienden a la humanidad no tienen otra elección que recurrir a dos insólitos héroes: un ex piloto acabado (Charlie Hunnam) y un aprendiz que todavía no se ha puesto a prueba (Rinko Kikuchi). Ambos se unen para traer a un legendario pero al parecer obsoleto Jaeger del pasado. Juntos, son la última esperanza de la humanidad frente al Apocalipsis que se avecina.",
-        genres: ["action", "fantasia", "scifi"],
+        genres: ["Acción", "Fantasia", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 11mins",
         img:
@@ -196,12 +196,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1maWwaJhRHUQif0vYVS60Y0yjB_0Jo2We/preview",
       },
       {
-        id: 13,
+        id: 20180321,
         key: "TITANES-DEL-PACIFICO-2",
         name: "TITANES DEL PACIFICO 2",
         description:
           "Un futuro cercano. Después de la primera invasión que sufrió la humanidad, la lucha aun no ha terminado. El planeta vuelve a ser asediado por los Kaiju, una raza de alienígenas colosales que emergen desde un portal interdimensional, con el objetivo de destruir a la raza humana. Ante esta nueva amenaza para la cual los humanos no están preparados, los Jaegers, robots gigantes de guerra pilotados por dos personas para sobrellevar la inmensa carga neural que conlleva manipularlos, ya no están a la altura de lo que se les viene encima. Será entonces cuando los supervivientes de la primera invasión, además de nuevos personajes como el hijo de Pentecost (John Boyega), tendrán que idear la manera de sorprender al enorme enemigo, apostando por nuevas estrategias defensivas y de ataque. Con la Tierra en ruinas e intentando reconstruirse, esta nueva batalla puede ser decisiva para el futuro.",
-        genres: ["action", "fantasia", "aventura", "scifi"],
+        genres: ["Acción", "Fantasia", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 0mins",
         img:
@@ -212,12 +212,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/109Gl0TyrIGtcdhdG2GjkOTWphkxlk8Kr/preview",
       },
       {
-        id: 14,
+        id: 20130816,
         key: "UNA-CUESTION-DE-TIEMPO",
         name: "UNA CUESTION DE TIEMPO",
         description:
           "La trama de la película gira en torno a un joven llamado Tim Lake. El protagonista y su familia tienen el curioso don de poder viajar a través del tiempo. Al descubrir esta cualidad, Tim empieza a beneficiarse de ello para cambiar diferentes aspectos de su vida. Se enamora de una chica, Mary, a la que conoce tras transladarse a vivir a Londres por motivos de trabajo. Su historia de amor se verá beneficiada gracias al don de Tim, sin embargo, el protagonista no tardará en darse cuenta de que su habilidad no es capaz de ampararle en algunos problemas y cuestiones familiares.",
-        genres: ["comedia", "fantasia", "drama", "romance"],
+        genres: ["Comedia", "Fantasia", "drama", "romance"],
         rate: "8.0",
         length: "2hr 3mins",
         img:
@@ -228,12 +228,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/18ET89Hq8-D38HjXCHUxGJ3a3KzSM7fAV/preview",
       },
       {
-        id: 15,
+        id: 20160209,
         key: "DEADPOOL",
         name: "DEADPOOL",
         description:
           "Basado en el anti-héroe menos convencional de la Marvel, Deadpool narra el origen de un ex-operativo de la fuerzas especiales llamado Wade Wilson, reconvertido a mercenario, y que tras ser sometido a un cruel experimento adquiere poderes de curación rápida, adoptando Wade entonces el alter ego de Deadpool. Armado con sus nuevas habilidades y un oscuro y retorcido sentido del humor, Deadpool intentará dar caza al hombre que casi destruye su vida.",
-        genres: ["comedia", "accion", "aventura"],
+        genres: ["Comedia", "Acción", "Aventura"],
         rate: "8.0",
         length: "1hr 48mins",
         img:
@@ -244,12 +244,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1EfS-ENu3oMVP6B6qe-IAE-F1Ocrd7qD_/preview",
       },
       {
-        id: 16,
+        id: 20180328,
         key: "READY-PLAYER-ONE",
         name: "READY PLAYER ONE",
         description:
           " Año 2044. Wade Watts es un adolescente al que le gusta evadirse del cada vez más sombrío mundo real a través de una popular utopía virtual a escala global llamada Oasis, hasta que su excéntrico y multimillonario creador muere. Antes de morir, ofrece su fortuna como premio a una elaborada búsqueda del tesoro a través de los rincones más inhóspitos de su creación. Será el punto de partida para que Wade se enfrente a jugadores, poderosos enemigos corporativos y otros competidores despiadados dispuestos a hacer lo que sea, tanto dentro de Oasis como del mundo real, para hacerse con el premio.",
-        genres: ["aventura", "familia", "scifi"],
+        genres: ["Aventura", "familia", "Cienciaficción"],
         rate: "8.4",
         length: "2hr 20mins",
         img:
@@ -260,12 +260,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/18L3pC4DJ3mEUeP8BXv0tnsrmKj-VXu4r/preview",
       },
       {
-        id: 17,
+        id: 20161223,
         key: "RESIDENT-EVIL-EL-CAPITULO-FINAL",
         name: "RESIDENT EVIL EL CAPITULO FINAL",
         description:
-          " La humanidad está agonizando tras la traición sufrida por Alice a manos de Wesker. Alice deberá regresar a donde la comenzó la pesadilla -Raccoon City-, ya que allí la Corporación Umbrella está reuniendo fuerzas antes de un último ataque a los últimos supervivientes del apocalipsis. En una carrera contra el tiempo, Alice tendrá que unir fuerzas con viejos amigos y con un inesperado aliado en una batalla contra hordas de zombis y nuevos monstruos mutantes. Será la aventura más difícil de Alice para salvar a la humanidad, que está al borde de la extinción.",
-        genres: ["accion", "terror", "scifi"],
+          " La humanidad está agonizando tras la traición sufrida por Alice a manos de Wesker. Alice deberá regresar a donde la comenzó la pesadilla -Raccoon City-, ya que allí la Corporación Umbrella está reuniendo fuerzas antes de un último ataque a los últimos supervivientes del apocalipsis. En una carrera contra el tiempo, Alice tendrá que unir fuerzas con viejos amigos y con un inesperado aliado en una batalla contra hordas de zombis y nuevos monstruos mutantes. Será la Aventura más difícil de Alice para salvar a la humanidad, que está al borde de la extinción.",
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 47mins",
         img:
@@ -276,12 +276,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1xdgxU9gpo2_A04_T-HRgM2Ac5gE_k-Hq/preview",
       },
       {
-        id: 18,
+        id: 2010909,
         key: "RESIDENT-EVIL-4-ULTRATUMBA",
         name: "RESIDENT EVIL 4 ULTRATUMBA",
         description:
           "En un mundo asolado por un virus infeccioso que convierte a sus víctimas en muertos vivientes, Alice continúa buscando supervivientes para ponerlos a salvo. Su batalla a muerte con la Corporación Umbrella llega a alturas insospechadas, pero Alice, inesperadamente, recibe ayuda de una vieja amiga. Nuevas pistas, con la promesa de un paraíso a salvo de muertos vivientes, los conduce hasta Los Ángeles, pero cuando llegan, la ciudad está infectada con miles de muertos vivientes. Alice y sus compañeros están a punto de caer en una trampa mortal.",
-        genres: ["accion", "terror", "scifi"],
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 37mins",
         img:
@@ -292,12 +292,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1VyZhaxiTc9H74OQxhblN5DgV4aB0GJk6/preview",
       },
       {
-        id: 19,
+        id: 20070920,
         key: "RESIDENT-EVIL-3-EXTINCION",
         name: "RESIDENT EVIL 3 EXTINCION",
         description:
           "Tercera entrega de la saga basada en los famosos videojuegos. En esta ocasión, nuestra heroína, Milla Jovovich, junto con los supervivientes de la catástrofe acontecida en la ciudad de Raccoon deben atravesar el desierto de Nevada con la esperanza de llegar a Alaska, antes de que los de la Corporación Umbrella les alcancen.",
-        genres: ["accion", "terror", "scifi"],
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 35mins",
         img:
@@ -308,12 +308,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/10CS8uOrzVFp0LczyTN-F7WL6rVI0Hz2u/preview",
       },
       {
-        id: 20,
+        id: 20040910,
         key: "RESIDENT-EVIL-2-APOCALIPSIS",
         name: "RESIDENT EVIL 2 APOCALIPSIS",
         description:
-          "Un virus mortal ha sido liberado sobre la población de Raccoon City. Alice (Milla Jovovich), una de las supervivientes del desastre bioquímico, se encuentra en el corazón de esta devastada ciudad. Sometida a experimentos que han alterado su genética, ahora posee fuerza, sentidos y destreza sobrehumana. Estas habilidades, y más, serán las que deba utilizar quien quiera sobrevivir en esta nueva aventura. Junto con otros supervivientes deberá escapar de la cada vez más peligrosa Raccoon City. Para alcanzar su meta necesitarán luchar contra las fuerzas de la Umbrella Corporation, las violentas criaturas de bioingeniería creadas en sus laboratorios, los zombies que plagan la ciudad y, finalmente, enfrentarse a la más colosal y mortal de estas creaciones: Nemesis.",
-        genres: ["accion", "terror", "scifi"],
+          "Un virus mortal ha sido liberado sobre la población de Raccoon City. Alice (Milla Jovovich), una de las supervivientes del desastre bioquímico, se encuentra en el corazón de esta devastada ciudad. Sometida a experimentos que han alterado su genética, ahora posee fuerza, sentidos y destreza sobrehumana. Estas habilidades, y más, serán las que deba utilizar quien quiera sobrevivir en esta nueva Aventura. Junto con otros supervivientes deberá escapar de la cada vez más peligrosa Raccoon City. Para alcanzar su meta necesitarán luchar contra las fuerzas de la Umbrella Corporation, las violentas criaturas de bioingeniería creadas en sus laboratorios, los zombies que plagan la ciudad y, finalmente, enfrentarse a la más colosal y mortal de estas creaciones: Nemesis.",
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 34mins",
         img:
@@ -324,12 +324,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1pzqvA69TISBYjxk130h30QB3LhYncBub/preview",
       },
       {
-        id: 21,
+        id: 20090912,
         key: "RESIDENT-EVIL-VENGANZA",
         name: "RESIDENT EVIL VENGANZA",
         description:
           "El virus de la corporación Umbrella sigue haciendo estragos en La Tierra convirtiendo a la población en legiones de muertos sedientos de sangre. La última esperanza de la humanidad, Alice, despierta en el centro de operaciones de la compañía donde comienza a conocer más detalles de su pasado. Alice seguirá persiguiendo a los responsables del virus llevándola por Tokio, Nueva York, Washington y Moscú donde le será revelado algo que la hará plantearse todo lo que la ha sucedido hasta ahora. Con la ayuda de sus nuevos aliados, Alice deberá sobrevivir el tiempo suficiente para escapar de un mundo hostil... La cuenta atrás ha comenzado.",
-        genres: ["accion", "terror", "ciencia ficcion"],
+        genres: ["Acción", "Terror", "ciencia ficcion"],
         rate: "8.4",
         length: "1hr 36mins",
         img:
@@ -340,12 +340,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1RCP6DK5hieUQYdYG9-v-zmxQLOK8lJ8T/preview",
       },
       {
-        id: 22,
+        id: 20150623,
         key: "TERMINATOR-5-GENESIS",
         name: "TERMINATOR 5 GENESIS",
         description:
           "Año 2032. La guerra del futuro se está librando y un grupo de rebeldes humanos tiene el sistema de inteligencia artificial Skynet contra las cuerdas. John Connor es el líder de la resistencia, y Kyle Reese es su fiel soldado, criado en las ruinas de una postapocalíptica California. Para salvaguardar el futuro, Connor envía a Reese a 1984 para salvar a su madre, Sarah de un Terminator programado para matarla con el fin de que no llegue a dar a luz a John. Pero lo que Reese encuentra en el otro lado no es como él esperaba.",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "2hr 6mins",
         img:
@@ -356,12 +356,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/11vQMkflF3lEXUhZyxugsz5ayJfKkWZVU/preview",
       },
       {
-        id: 23,
+        id: 20090520,
         key: "TERMINATOR-4-LA-SALVACION",
         name: "TERMINATOR 4 LA SALVACION",
         description:
           "Nueva entrega de la saga de Terminator, que transcurre en un post-apocalíptico 2018, tras el día del Juicio Final. John Connor es el hombre destinado a liderar la resistencia de los humanos contra Skynet y su ejército de Terminators. Pero el futuro en el que a Connor le enseñaron a creer se ve alterado en parte por la aparición de Marcus Wright, un extraño cuyo último recuerdo es haber estado en el corredor de la muerte, y que afirma haber estado con Kyle Reese, el padre de John. Connor debe decidir si Marcus ha sido enviado desde el futuro o rescatado del pasado, todo en una carrera contrareloj mientras la Resistencia prepara su ataque final contra el corazón del centro de operaciones de Skynet.",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 55mins",
         img:
@@ -372,12 +372,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1wo-5wQ4L5bamhG-rOs-D1fAJZI-wqAz7/preview",
       },
       {
-        id: 24,
+        id: 20030702,
         key: "TERMINATOR-3-LA-REBELION-DE-LAS-MAQUINAS",
         name: "TERMINATOR 3 LA REBELION DE LAS MAQUINAS",
         description:
           "Ha pasado una década desde que John Connor -Nick Stahl- salvara a la humanidad de la destrucción. En la actualidad John tiene 25 años y vive en la clandestinidad: no hay ninguna prueba documental de su existencia. Así evita ser rastreado por Skynet -la sofisticada corporación de máquinas que una vez intentó acabar con su vida-. Pero, ahora, desde el futuro, ha sido enviado el T-X (Kristanna Loken), la máquina destructora cyborg más desarrollada de Skynet. Su misión es completar el trabajo que no pudo terminar su predecesor, el T-1000. El T-X es una máquina tan implacable como bello su aspecto humano. Ahora la única esperanza de sobrevivir para Connnor es Terminator.",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 49mins",
         img:
@@ -388,12 +388,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1MrbP7YvWDJn1ofni3ULpreLRX80BnbSC/preview",
       },
       {
-        id: 25,
+        id: 19910703,
         key: "TERMINATOR-2-EL-JUICIO-FINAL",
         name: "TERMINATOR 2 EL JUICIO FINAL",
         description:
           "Ha pasado 11 años desde que Sarah Connor fue marcada como objetivo para ser eliminada por un cyborg del futuro. Ahora su hijo, John, el futuro líder de la resistencia, es el objetivo de un Terminator más moderno, más mortífero. Una vez más, la resistencia se las ha ingeniado para enviar un protector de vuelta al pasado para intentar salvar a John y a su madre, Sarah.",
-        genres: ["Accion", "Suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 49mins",
         img:
@@ -404,12 +404,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1V9Ga9oRuVLfWuEoZC3SvqocT9Nb2sMOh/preview",
       },
       {
-        id: 26,
+        id: 19841026,
         key: "TERMINATOR",
         name: "TERMINATOR ",
         description:
           "Un cyborg ha sido enviado desde el futuro en una misión mortal: Eliminar a Sarah Connor, una joven cuya vida tendrá una gran importancia en los próximos años. Sarah tiene sólo un protector - Kyle Reese - también enviado desde el futuro. El Terminator utiliza su inteligencia excepcional y fuerza para encontrar a Sarah, pero ¿hay alguna forma de detener al cyborg aparentemente indestructible.",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 48mins",
         img:
@@ -420,12 +420,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1KM7VkAd033rwUxRl1WjZ74tYnECpCFfn/preview",
       },
       {
-        id: 27,
+        id: 20011102,
         key: "EL UNICO",
         name: "EL UNICO ",
         description:
           "En un mundo futuro se ha descubierto que existen vidas alternas en universos alternos, un hecho que los agentes del Departamento Multiverse defienden, excepto el investigador Yulaw. Yulaw ha atravesado 123 universos persiguiendo y destruyendo sus vidas alternas. A medida que las mata, absorbe la fuerza de esas vidas alternas, ganando habilidades sobrehumanas. La magnitud de tal fenómeno puede desequilibrar el delicado equilibrio de todos los universos, sobre todo cuando a Yulaw ya sólo le queda eliminar a la última de sus vidas alternas. Ese personaje, Gabriel Yulaw, es agente de policía honesto y buen marido, y su vida se ve alterada cuando el otro Yulaw entra en su universo. Para salvarse a sí mismo, la única alternativa que le queda es la de matar a su yo malvado del otro universo.",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "8.4",
         length: "1hr 27mins",
         img:
@@ -436,12 +436,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1xVGpFQy2nWOZdbbYZ7W1-m09LhuTiYxX/preview",
       },
       {
-        id: 28,
+        id: 20150519,
         key: "TOMORROWLAND-EL-MUNDO-DEL-MAÑANA",
         name: "TOMORROWLAND EL MUNDO DEL MAÑANA ",
         description:
           "Unidos por el mismo destino, una adolescente inteligente y optimista, llena de curiosidad científica, y un antiguo niño prodigio inventor, hastiado por las desilusiones, se embarcan en una peligrosa misión para desenterrar los secretos de un enigmático lugar localizado en algún lugar del tiempo y el espacio, conocido en la memoria colectiva como “Tomorrowland”, y así salvar a la humanidad.",
-        genres: ["aventura", "mysterio", "scifi"],
+        genres: ["Aventura", "Misterio", "Cienciaficción"],
         rate: "8.4",
         length: "2hr 10mins",
         img:
@@ -452,12 +452,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/12w6QWeLyEbYJxED76Ux7o7RBJjWfvYGs/preview",
       },
       {
-        id: 29,
+        id: 19961115,
         key: "SPACE JAM",
         name: "SPACE JAM",
         description:
-          "Bugs Bunny y su equipo desafían a los Nerdlucks (un grupo de pequeños extraterrestres) a un partido de baloncesto para decidir si los Looney Tunes permanecen en la Tierra o se trasladan a una lejana galaxia para trabajar en un parque de atracciones de Montaña Tontolandia. Los Nerdlucks cuentan con una poderosa arma secreta que los hace superiores: se han apoderado de las mejores cualidades de las estrellas de la NBA (Charles Barkley y Patrick Ewing). Pero también los Looney poseen un arma secreta: ¡Michael Jordan.",
-        genres: ["animacion", "familia", "comedia"],
+          "Bugs Bunny y su equipo desafían a los Nerdlucks (un grupo de pequeños extraterrestres) a un partido de baloncesto para decidir si los Looney Tunes permanecen en la Tierra o se trasladan a una lejana galaxia para trabajar en un parque de atrAcciónes de Montaña Tontolandia. Los Nerdlucks cuentan con una poderosa arma secreta que los hace superiores: se han apoderado de las mejores cualidades de las estrellas de la NBA (Charles Barkley y Patrick Ewing). Pero también los Looney poseen un arma secreta: ¡Michael Jordan.",
+        genres: ["animacion", "familia", "Comedia"],
         rate: "8.4",
         length: "1hr 27mins",
         img:
@@ -468,12 +468,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1WWxQJdfKihR0UOD8LKXruo6ky8FRfInh/preview",
       },
       {
-        id: 30,
+        id: 19940910,
         key: "TIEMPOS-VIOLENTOS",
         name: "TIEMPOS VIOLENTOS",
         description:
           "Jules y Vincent, dos asesinos a sueldo con muy pocas luces, trabajan para Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.",
-        genres: ["suspenso", "crimen"],
+        genres: ["Suspense", "crimen"],
         rate: "8.4",
         length: "2hr 34mins",
         img:
@@ -484,12 +484,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/16yV6fZnYjhN_pCi85L8mE8fkwoU5JgpF/preview",
       },
       {
-        id: 31,
+        id: 20130523,
         key: "QUE-PASO-AYER-PARTE-III",
         name: "QUE PASO AYER PARTE III",
         description:
           "Tras la inesperada muerte de su padre, Alan (Zach Galifianakas) es llevado por sus amigos Phil (Bradley Cooper), Stu (Ed Helms) y Doug (Justin Bartha) a un centro especializado para que mejore. Esta vez no hay boda ni fiesta de despedida ¿Qué puede ir mal? Pues que cuando estos chicos salen a la carretera, y sobre todo cuando aparece Chow (Ken Jeong)... la suerte está echada. Tercera entrega de la franquicia iniciada en 2009 con Resacón en Las Vegas.",
-        genres: ["comedia"],
+        genres: ["Comedia"],
         rate: "8.0",
         length: "1hr 40mins",
         img:
@@ -500,12 +500,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1kIXpGxlP3jcmUHRYnfVZs4RngboOLIAK/preview",
       },
       {
-        id: 32,
+        id: 20110525,
         key: "QUE-PASO-AYER-PARTE-II",
         name: "QUE PASO AYER PARTE II",
         description:
           "Phil (Bradley Cooper), Stu (Ed Helms), Alan (Zach Galifianakis) y Doug (Justin Bartha) viajan a la exótica Tailandia para la boda de Stu. Con el recuerdo de la desastrosa despedida de soltero en Las Vegas aún vivo en su memoria - o al menos bien documentado -, Stu no deja nada al azar. Ha optado por un brunch preboda seguro y tranquilo con tortitas, café, y sin alcohol... Sin embargo, las cosas no siempre salen como se piensa. Dos noches antes del gran día, en un fabuloso resort de Tailandia, Stu cede. Una cerveza para cada uno. En botellas cerradas, ¿qué podría pasar?Lo que ocurre en Las Vegas se queda en Las Vegas, pero lo que ocurre en Bangkok resulta difícil de imaginar.",
-        genres: ["comedia"],
+        genres: ["Comedia"],
         rate: "8.0",
         length: "1hr 42mins",
         img:
@@ -516,12 +516,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1FmFE2ZugyRpZiPovhtQjOW-ZsKMujQfv/preview",
       },
       {
-        id: 33,
+        id: 20090602,
         key: "QUE-PASO-AYER",
         name: "QUE PASO AYER ",
         description:
           '"The Hangover" es la historia de una desmadrada despedida de soltero en la que el futuro novio y sus tres amigos, dos días antes de la boda, se montan la juerga padre en Las Vegas. Doug viaja a la ciudad del juego con sus mejores amigos Phil y Stu, así como su futuro cuñado Alan. La juerga es de campeonato y, como era de esperar, a la mañana siguiente tienen una resaca monumental. El problema es que, siendo incapaces de recordar nada de lo ocurrido durante la noche anterior, se encuentran con que el prometido ha desaparecido, topándose en su lugar con otras dos sorpresas en la suite del hotel: un tigre y un bebé.',
-        genres: ["comedia"],
+        genres: ["Comedia"],
         rate: "8.0",
         length: "1hr 40mins",
         img:
@@ -532,12 +532,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/17DiJFfSnG3DnwWGW8NtsI9K5Bz8JcEm0/preview",
       },
       {
-        id: 34,
+        id: 20040122,
         key: "EL-EFECTO-MARIPOSA",
         name: "EL EFECTO MARIPOSA ",
         description:
           "Evan Treborn, un joven que se está esforzando por superar unos dolorosos recuerdos de su infancia, descubre una técnica que le permite viajar atrás en el tiempo y ocupar su cuerpo de niño para poder cambiar el curso de su dolorosa historia. Sin embargo también descubre que cualquier mínimo cambio en el pasado altera enormemente su futuro.",
-        genres: ["scifi", "suspenso"],
+        genres: ["Cienciaficción", "Suspense"],
         rate: "8.0",
         length: "1hr 53mins",
         img:
@@ -548,12 +548,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1oaI6vc0MAc2fHj8Je0pM46BIXpXnIk4E/preview",
       },
       {
-        id: 35,
+        id: 20191002,
         key: "PROYECTO-GEMINIS",
         name: "PROYECTO GEMINIS ",
         description:
           "Henry Bogan, un asesino a sueldo, pretende retirarse porque se siente viejo. Sin embargo, hay alguien que no está dispuesto a permitírselo porque tiene la misión de matarlo: un clon suyo más joven, más rápido y más fuerte.",
-        genres: ["accion", "suspenso"],
+        genres: ["Acción", "Suspense"],
         rate: "8.0",
         length: "1hr 57mins",
         img:
@@ -564,13 +564,13 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1Zw_8TpWlB6Pmr2xsqPhtxyzT5_4NpIKs/preview",
       },
       {
-        id: 36,
+        id: 20060303,
         key: "ULTRAVIOLETA",
         name: "ULTRAVIOLETA",
         description:
           "A finales del siglo XXI, surge una subcultura de seres humanos con una mutación genética: están dotados de una asombrosa velocidad, una increíble resistencia y una profunda inteligencia. A medida que hay más personas contagiadas, el temor del gobierno aumenta y a los mutantes se les trata como a marginados, se les somete a pruebas espantosas y se les pone en cuarentena. El gobierno ha tomado la determinación de acabar con ellos, pero una mujer está decidida a impedirlo: la ultrabella y ultraletal Violet (Milla Jovovich). Gracias a sus impresionantes técnicas de artes marciales y a su capacidad camaleónica, Violet se convierte en una guerrera solitaria dedicada a proteger a su nueva raza y a vengarse de los que la crearon.",
-        genres: ["accion", "suspenso", "scifi"],
-        rate: "9.0",
+        genres: ["Acción", "Suspense", "Cienciaficción"],
+        rate: "5.0",
         length: "1hr 28mins",
         img:
           "https://image.tmdb.org/t/p/w220_and_h330_face/bLwx3RGXgwxjRrwgPEY0noXJzlO.jpg",
@@ -580,12 +580,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1VN9yexUyAQjmLJstaNWoWEPinZK7erkI/preview",
       },
       {
-        id: 37,
+        id: 20180713,
         key: "MISION-IMPOSIBLE-6-REPERCUSION",
         name: "MISION IMPOSIBLE 6 REPERCUSION",
         description:
           "En ocasiones, hasta las mejores intenciones pueden volverse en contra. Después de una misión fallida, Ethan Hunt y su equipo IMF, junto con algunos aliados conocidos, se enfrentarán a una nueva carrera contrarreloj.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 27mins",
         img:
@@ -596,12 +596,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1doi74QC6p5uV2h6qtFBPv-tZrdyluzm9/preview",
       },
       {
-        id: 38,
+        id: 20150723,
         key: "MISION-IMPOSIBLE-5-NACION-SECRETA",
         name: "MISION IMPOSIBLE 5 NACION SECRETA",
         description:
-          "Con la FMI disuelta y Ethan Hunt abandonado a su suerte, el equipo tiene que enfrentarse contra el Sindicato, una red de agentes especiales altamente preparados y entrenados. Estos grupos están empeñados en crear un nuevo orden mundial mediante una serie de ataques terroristas cada vez más graves. Ethan reúne a su equipo y une sus fuerzas con la agente británica renegada Ilsa Faust, quien puede que sea o no miembro de esta nación secreta, mientras el grupo se va enfrentando a su misión más imposible hasta la fecha…",
-        genres: ["accion", "aventura", "scifi"],
+          "Con la FMI disuelta y Ethan Hunt abandonado a su suerte, el equipo tiene que enfrentarse contra el Sindicato, una red de agentes especiales altamente preparados y entrenados. Estos grupos están empeñados en crear un nuevo orden mundial mediante una serie de ataques Terroristas cada vez más graves. Ethan reúne a su equipo y une sus fuerzas con la agente británica renegada Ilsa Faust, quien puede que sea o no miembro de esta nación secreta, mientras el grupo se va enfrentando a su misión más imposible hasta la fecha…",
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 11mins",
         img:
@@ -612,12 +612,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/184eyRJJJUbUL4IhXrE8fBWFjRtd5mwUt/preview",
       },
       {
-        id: 39,
+        id: 20111207,
         key: "MISION-IMPOSIBLE-4-PROTOCOLO-FANTASMA",
         name: "MISION IMPOSIBLE 4 PROTOCOLO FANTASMA",
         description:
-          "El agente Ethan Hunt, acusado de un atentado terrorista con bombas contra el Kremlin, es desautorizado junto con toda la organización, al poner en marcha el presidente el llamado Protocolo fantasma. Abandonado a su suerte y sin recursos, el objetivo de Ethan es rehabilitar el buen nombre de su agencia e impedir un nuevo ataque. Pero emprende esta misión con un equipo formado por fugitivos, cuyos motivos personales no conoce bien.",
-        genres: ["accion", "aventura", "scifi"],
+          "El agente Ethan Hunt, acusado de un atentado Terrorista con bombas contra el Kremlin, es desautorizado junto con toda la organización, al poner en marcha el presidente el llamado Protocolo fantasma. Abandonado a su suerte y sin recursos, el objetivo de Ethan es rehabilitar el buen nombre de su agencia e impedir un nuevo ataque. Pero emprende esta misión con un equipo formado por fugitivos, cuyos motivos personales no conoce bien.",
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.0",
         length: "2hr 12mins",
         img:
@@ -628,12 +628,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1TQZAmhARb-nasypJlw2VBgFuzUOPIXiK/preview",
       },
       {
-        id: 40,
+        id: 20060503,
         key: "MISION-IMPOSIBLE-3",
         name: "MISION IMPOSIBLE 3",
         description:
           "Tras haber llevado a cabo diversas misiones, el agente especial Ethan Hunt (Tom Cruise) se ha retirado del servicio activo y se ha prometido con su amada Julia (Michelle Monaghan). Pero, cuando es secuestrado uno de los agentes entrenados por él, volverá de nuevo a la acción. También tendrá que enfrentarse a Owen Davian (Philip Seymour Hoffman), un individuo sin escrúpulos que trafica con armas y con información.",
-        genres: ["accion", "aventura", "suspenso", "scifi"],
+        genres: ["Acción", "Aventura", "Suspense", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 6mins",
         img:
@@ -644,12 +644,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1OYAGKYzeLW_vnyQXtnJOBh3EYPWnNdvo/preview",
       },
       {
-        id: 41,
+        id: 20000524,
         key: "MISION-IMPOSIBLE-2",
         name: "MISION IMPOSIBLE 2",
         description:
-          "El agente especial Ethan Hunt tiene una nueva misión: evitar que un despiadado ex-agente y ahora terrorista internacional se haga con un virus mortal que podría soltar sobre Australia causando millones de víctimas. Para evitarlo, contará otra vez con la inestimable ayuda del genio informático Luther Stickell, del experto conductor Billy Baird y de la presencia de la sensual y exótica ladrona internacional Nhye, que en el pasado mantuvo una relación sentimental con el criminal y que ahora se siente atraída por Hunt.",
-        genres: ["accion", "aventura", "suspenso", "scifi"],
+          "El agente especial Ethan Hunt tiene una nueva misión: evitar que un despiadado ex-agente y ahora Terrorista internacional se haga con un virus mortal que podría soltar sobre Australia causando millones de víctimas. Para evitarlo, contará otra vez con la inestimable ayuda del genio informático Luther Stickell, del experto conductor Billy Baird y de la presencia de la sensual y exótica ladrona internacional Nhye, que en el pasado mantuvo una relación sentimental con el criminal y que ahora se siente atraída por Hunt.",
+        genres: ["Acción", "Aventura", "Suspense", "Cienciaficción"],
         rate: "6.0",
         length: "2hr 3mins",
         img:
@@ -660,12 +660,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1iyEWU4Wc41T88F9H_uBwrOf4Bajwfn23/preview",
       },
       {
-        id: 42,
+        id: 19960522,
         key: "MISION-IMPOSIBLE",
         name: "MISION IMPOSIBLE",
         description:
           "Ethan Hunt es un superespía capaz de resolver cualquier arriesgada situación con la máxima elegancia. Forma parte de un competente equipo dirigido por el agente Jim Phelps, que ha vuelto a reunir a sus hombres para participar en una dificilísima misión: evitar la venta de un disco robado que contiene información secreta de vital importancia.",
-        genres: ["accion", "aventura", "suspenso", "scifi"],
+        genres: ["Acción", "Aventura", "Suspense", "Cienciaficción"],
         rate: "6.0",
         length: "1hr 50mins",
         img:
@@ -680,8 +680,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "MAZINGER-Z",
         name: "MAZINGER Z",
         description:
-          "La película llega en la conmemoración de los 45 años del manga, y está dirigida por Junji Shimizu (Yu-Gi-Oh!, One Piece,Toriko 3D: Kaimaku Gourment Adventure!) y bajo la producción de Toei Animation, productora encargada de otros famosos animes como Caballeros del Zodiaco, Sailor Moon y Candy Candy. El villano Doctor Infierno y su Imperio del Mal vuelven para hacerse con la humanidad y sembrar el caos, lo que hará que Koji Kabuto vuelva a ponerse a los mandos del robot Mazinger Z. Tras descubrir una extraña y diferente forma de vida en el Monte Fuji Kabuto tendrá que hacer frente a un nuevo y desconocido mal y escoger entre volver a ser el héroe o un dios.",
-        genres: ["accion", "animacion", "scifi"],
+          "La película llega en la conmemoración de los 45 años del manga, y está dirigida por Junji Shimizu (Yu-Gi-Oh!, One Piece,Toriko 3D: Kaimaku Gourment Aventura!) y bajo la producción de Toei Animation, productora encargada de otros famosos animes como Caballeros del Zodiaco, Sailor Moon y Candy Candy. El villano Doctor Infierno y su Imperio del Mal vuelven para hacerse con la humanidad y sembrar el caos, lo que hará que Koji Kabuto vuelva a ponerse a los mandos del robot Mazinger Z. Tras descubrir una extraña y diferente forma de vida en el Monte Fuji Kabuto tendrá que hacer frente a un nuevo y desconocido mal y escoger entre volver a ser el héroe o un dios.",
+        genres: ["Acción", "animacion", "Cienciaficción"],
         rate: "7.0",
         length: "1hr 30mins",
         img:
@@ -697,7 +697,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL CORREDOR DEL LABERINTO LA PRUEBA",
         description:
           "En este nuevo capítulo de la trepidante saga El Corredor del Laberinto, Thomas Dylan O Brien y el resto de clarianos tendrán que enfrentarse a su mayor desafío hasta el momento: buscar pistas sobre la misteriosa y poderosa organización conocida como CRUEL. Este viaje les llevará a “La Quemadura un apocalíptico lugar repleto de inimaginables obstáculos. Formando equipo con miembros de la resistencia, los clarianos deberán desenmascarar a las fuerzas superiores de CRUEL y averiguar qué planes tienen para todos ellos",
-        genres: ["accion", "suspenso", "scifi"],
+        genres: ["Acción", "Suspense", "Cienciaficción"],
         rate: "6.9",
         length: "2hr 12mins",
         img:
@@ -713,7 +713,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL CORREDOR DEL LABERINTO LA CURA MORTAL",
         description:
           "En este final de saga, Thomas lidera a su grupo en una última misión. Deberán entrar en la legendaria Last City, un laberinto controlado por WCKD que puede llegar a ser el laberinto más mortífero de todos. Cualquier persona que lo supere obtendrá las respuestas a las preguntas y los protagonistas quieren saber lo que realmente sucede.",
-        genres: ["accion", "suspenso", "mysterio", "scifi"],
+        genres: ["Acción", "Suspense", "Misterio", "Cienciaficción"],
         rate: "7.1",
         length: "2hr 22mins",
         img:
@@ -728,8 +728,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "EL-CORREDOR-DEL-LABERINTO-CORRER-O-MORIR",
         name: "EL CORREDOR DEL LABERINTO CORRER O MORIR",
         description:
-          "Thomas abre los ojos y se da cuenta que está en un ascensor. Lo extraño es que no recuerda nada, ni dónde está, ni quién es. Lo único que aún permanece intacto en su memoria es su nombre, y ya es mucho. Antes de que le dé tiempo a cuestionarse algo sobre sí mismo las puertas se abrirán y aparecerá ante él un extraño mundo. Todo lo que ve son chicos de su edad que tienen su mismo estado de amnesia. Una aventura fantástica que pronto destapará la dura realidad bajo ese velo de incertidumbre: todos ellos están atrapados en un laberinto. Si quieren tener alguna posibilidad de salir de allí y recuperar su antigua vida y aquello que no son capaces de recordar deberán unir fuerzas para escapar. Un mundo post-apocalíptico que les acorralará e irá un paso por delante será el desafío que tengan que pasar estos jóvenes por la libertad.",
-        genres: ["accion", "suspenso", "mysterio", "scifi"],
+          "Thomas abre los ojos y se da cuenta que está en un ascensor. Lo extraño es que no recuerda nada, ni dónde está, ni quién es. Lo único que aún permanece intacto en su memoria es su nombre, y ya es mucho. Antes de que le dé tiempo a cuestionarse algo sobre sí mismo las puertas se abrirán y aparecerá ante él un extraño mundo. Todo lo que ve son chicos de su edad que tienen su mismo estado de amnesia. Una Aventura fantástica que pronto destapará la dura realidad bajo ese velo de incertidumbre: todos ellos están atrapados en un laberinto. Si quieren tener alguna posibilidad de salir de allí y recuperar su antigua vida y aquello que no son capaces de recordar deberán unir fuerzas para escapar. Un mundo post-apocalíptico que les acorralará e irá un paso por delante será el desafío que tengan que pasar estos jóvenes por la libertad.",
+        genres: ["Acción", "Suspense", "Misterio", "Cienciaficción"],
         rate: "7.1",
         length: "1hr 53mins",
         img:
@@ -745,7 +745,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "INDIANA JONES Y LA CALAVERA DE CRISTAL",
         description:
           "Guerra Fría (1957). Indiana Jones (Harrison Ford) y su amigo Mac (Ray Winstone) acaban de escapar de las garras de unos agentes soviéticos en un remoto aeropuerto. El decano de la Universidad (Jim Broadbent) le confiesa a su amigo el profesor Jones que las últimas misiones de Indy han fracasado y que está a punto de ser despedido. Mientras tanto, Indiana conoce a Mutt (Shia LaBeouf), un joven rebelde que le propone un trato: si le ayuda a resolver un problema personal, él, a cambio, le facilitaría uno de los descubrimientos más espectaculares de la historia: la Calavera de Cristal de Akator, que se encuentra en un lugar remoto del Perú. Pero los agentes soviéticos, dirigidos por la fría y bella Irina Spalko (Cate Blanchett), tienen el mismo objetivo.",
-        genres: ["accion", "aventura", "mysterio", "scifi"],
+        genres: ["Acción", "Aventura", "Misterio", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 3mins",
         img:
@@ -761,7 +761,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "INDIANA JONES LA ULTIMA CRUZADA",
         description:
           "En esta tercera entrega, el padre del protagonista (Harrison Ford), Henry Jones, también arqueólogo (Sean Connery), es secuestrado cuando buscaba el Santo Grial. Indiana tendrá que ir a rescatarlo y, de paso, intentar hacerse con la preciada reliquia, que también ambicionan los nazis.",
-        genres: ["accion", "aventura", "mysterio", "scifi"],
+        genres: ["Acción", "Aventura", "Misterio", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 7mins",
         img:
@@ -777,7 +777,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "INDIANA JONES Y EL TEMPLO MALDITO",
         description:
           "1935. Shanghai. El intrépido arqueólogo Indiana Jones, tras meterse en jaleos en un local nocturno, consigue escapar junto a una bella cantante y su joven acompañante. Tras un accidentado vuelo, los tres acaban en la India, donde intentarán ayudar a los habitantes de un pequeño poblado, cuyos niños han sido raptados.",
-        genres: ["accion", "aventura", "mysterio", "scifi"],
+        genres: ["Acción", "Aventura", "Misterio", "Cienciaficción"],
         rate: "8.1",
         length: "1hr 58mins",
         img:
@@ -792,8 +792,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "INDIANA-JONES",
         name: "INDIANA JONES",
         description:
-          "Cuando el profesor Henry Jones Sr. es invitado a dar conferencias en todo el mundo en mayo de 1908, lleva consigo a su esposa e hijo, e invita a su ex tutor, la señorita Helen Seymour, a enseñar a Henry Jr. durante el viaje. Su primera parada es El Cairo, Egipto. Cuando Junior, que prefiere llamarse Indy y Miss Seymour visitan las pirámides, T.E. los invita. Lawrence (otro antiguo alumno suyo) para unirse a una excavación arqueológica. Cuando la momia desaparece y se roba un tocado invaluable, el joven Indy prueba su primera aventura. En su próxima parada en Tánger, la familia se queda con el ex compañero de clase del profesor Jones, Walter Harris. Indy se hace amigo de un joven esclavo llamado Omar que pertenece a Emily Keen. Los dos se meten en problemas cuando Indy insiste en visitar el mercado para ver una cabeza salada exhibida en un poste. Atrapados por traficantes de esclavos, terminan en una subasta de la que solo Harris puede intentar rescatarlos.",
-        genres: ["accion", "aventura", "mysterio", "scifi"],
+          "Cuando el profesor Henry Jones Sr. es invitado a dar conferencias en todo el mundo en mayo de 1908, lleva consigo a su esposa e hijo, e invita a su ex tutor, la señorita Helen Seymour, a enseñar a Henry Jr. durante el viaje. Su primera parada es El Cairo, Egipto. Cuando Junior, que prefiere llamarse Indy y Miss Seymour visitan las pirámides, T.E. los invita. Lawrence (otro antiguo alumno suyo) para unirse a una excavación arqueológica. Cuando la momia desaparece y se roba un tocado invaluable, el joven Indy prueba su primera Aventura. En su próxima parada en Tánger, la familia se queda con el ex compañero de clase del profesor Jones, Walter Harris. Indy se hace amigo de un joven esclavo llamado Omar que pertenece a Emily Keen. Los dos se meten en problemas cuando Indy insiste en visitar el mercado para ver una cabeza salada exhibida en un poste. Atrapados por traficantes de esclavos, terminan en una subasta de la que solo Harris puede intentar rescatarlos.",
+        genres: ["Acción", "Aventura", "Misterio", "Cienciaficción"],
         rate: "8.1",
         length: "1hr 30mins",
         img:
@@ -809,7 +809,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "JOKER",
         description:
           "Arthur Fleck es un hombre ignorado por la sociedad, cuya motivación en la vida es hacer reír. Pero una serie de trágicos acontecimientos le llevarán a ver el mundo de otra forma. Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman, pero que en este film toma un cariz más realista y oscuro.",
-        genres: ["crime", "drama", "suspenso", "scifi"],
+        genres: ["crime", "drama", "Suspense", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 2mins",
         img:
@@ -825,7 +825,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL HOMBRE INVISIBLE",
         description:
           "Cecilia (Elisabeth Moss) rehace su vida tras recibir la noticia de que su exnovio, un maltratador empedernido, ha fallecido. Sin embargo, su cordura comienza a tambalearse cuando empieza tener la certeza de que en realidad sigue vivo.",
-        genres: ["terror", "drama", "suspenso", "scifi"],
+        genres: ["Terror", "drama", "Suspense", "Cienciaficción"],
         rate: "8.1",
         length: "1hr 50mins",
         img:
@@ -841,7 +841,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LA GUERRA DE LOS MUNDOS",
         description:
           "Basada en una popular novela de HG Wells, narra la historia de una invasión del planeta tierra por los marcianos, y la extraordinaria batalla de la humanidad por la supervivencia a través de los ojos de una familia americana. Ray Ferrier es un descargador de muelle, divorciado y padre nada modélico. Poco después de que su ex mujer y su nuevo marido se vayan después de dejar a Robbie, su hijo adolescente, y a su pequeña hija Rachel para una de sus contadas visitas, estalla una tremenda e inesperada tormenta eléctrica. Unos momentos después, en un cruce cerca de la casa, Ray es testigo de un acontecimiento que cambiará su vida y la de los suyos para siempre. Una enorme máquina de tres patas emerge del suelo y antes de que alguien pueda hacer algo, arrasa todo lo que está a su alcance. Un día como otro cualquiera acaba de convertirse en la fecha más extraordinaria de su vida: el primer ataque alienígena contra la Tierra.",
-        genres: ["aventura", "suspenso", "scifi"],
+        genres: ["Aventura", "Suspense", "Cienciaficción"],
         rate: "8.1",
         length: "1hr 56mins",
         img:
@@ -857,7 +857,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LA VECINA DE ALADO",
         description:
           "Matthew, un ambicioso joven de un instituto con aspiraciones a ser político en el futuro, se enamora de la chica de sus sueños: la bella y joven vecina de la puerta de al lado. Ambos comienzan un idílico romance, pero un sorprendente descubrimiento pondrá a prueba su relación: ella es un famosa actriz porno.",
-        genres: ["comedia", "romance"],
+        genres: ["Comedia", "romance"],
         rate: "8.1",
         length: "1hr 48mins",
         img:
@@ -873,7 +873,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "GIGANTES DE ACERO",
         description:
           "En un futuro no muy lejano, el boxeo es robótico: en los combates ya no se enfrentan seres humanos, sino robots humanoides, sofisticadas máquinas diseñadas para luchar. Charlie Kenton, un antiguo púgil que casi llegó a alcanzar la gloria, está pasando una mala racha como promotor de combates. Un día, encuentra un viejo robot desechado y, al comprobar que es un gran boxeador, decide entrenarlo.",
-        genres: ["accion", "drama", "scifi"],
+        genres: ["Acción", "drama", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 6mins",
         img:
@@ -888,8 +888,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "BATTLESHIP",
         name: "BATTLESHIP",
         description:
-          "“Battleship” es la libre adaptación al cine del popular juego de mesa de Hasbro conocido como “Hundir la flota” o ”Batalla naval”. La curiosa variante que plantea esta versión es que la batalla será entre la U.S. Navy y… ¡una flota alienígena! La historia nos propone una épica aventura de acción que transcurre en el mar, el cielo y la tierra, y en la que nuestro planeta lucha por sobrevivir contra una fuerza muy superior. La película está protagonizada por Taylor Kitsch en el papel del teniente Hopper, un oficial de la Marina destinado al John Paul Jones; Brooklyn Decker es Sam Shane, una fisioterapeuta de la Marina y novia de Hopper; Alexander Skarsgård es Stone, el hermano mayor de Hopper y comandante del Samson; Rihanna es la suboficial Raikes, especialista en armas del John Paul Jones; y Liam Neeson es el almirante Shane, el oficial superior de Hopper y Stone (y padre de Sam).",
-        genres: ["accion", "suspenso", "aventura", "scifi"],
+          "“Battleship” es la libre adaptación al cine del popular juego de mesa de Hasbro conocido como “Hundir la flota” o ”Batalla naval”. La curiosa variante que plantea esta versión es que la batalla será entre la U.S. Navy y… ¡una flota alienígena! La historia nos propone una épica Aventura de acción que transcurre en el mar, el cielo y la tierra, y en la que nuestro planeta lucha por sobrevivir contra una fuerza muy superior. La película está protagonizada por Taylor Kitsch en el papel del teniente Hopper, un oficial de la Marina destinado al John Paul Jones; Brooklyn Decker es Sam Shane, una fisioterapeuta de la Marina y novia de Hopper; Alexander Skarsgård es Stone, el hermano mayor de Hopper y comandante del Samson; Rihanna es la suboficial Raikes, especialista en armas del John Paul Jones; y Liam Neeson es el almirante Shane, el oficial superior de Hopper y Stone (y padre de Sam).",
+        genres: ["Acción", "Suspense", "Aventura", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 11mins",
         img:
@@ -905,7 +905,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LA BELLA Y LA BESTIA",
         description:
           "Bella, una joven hermosa y brillante, asume el lugar de su padre como prisionero en el castillo de una bestia. Poco a poco, la valiente Bella irá dándose cuenta de que el príncipe bestia no es el malvado ser que todos creen que es y tiene, en realidad, un gran corazón.",
-        genres: ["familia", "fantasia", "romance"],
+        genres: ["familia", "Fantasia", "romance"],
         rate: "8.1",
         length: "2hr 9mins",
         img:
@@ -920,8 +920,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "CHAPPIE",
         name: "CHAPPIE",
         description:
-          "Ambientada en Johanesburgo, y con un personaje robótico ridículo como protagonista, este delirante relato nos traslada a un viaje por las emociones y sentimientos en un mundo distinto a la par que sorprendente. Con un argumento elaborado y un trasfondo reflexivo, esta cómica historia encaja en un marco inusual visualmente cuidado e impactante. Una comedia que cala por la simplicidad de su trama principal, y engancha por los minuciosos detalles que te adentran en una realidad ficticia y muy visual. Enigmática y divertida a partes iguales, se trata de una historia de corazón en un entorno robotizado y futurista donde la ciencia ficción es el paisaje.",
-        genres: ["crimen", "accion", "scifi"],
+          "Ambientada en Johanesburgo, y con un personaje robótico ridículo como protagonista, este delirante relato nos traslada a un viaje por las emociones y sentimientos en un mundo distinto a la par que sorprendente. Con un argumento elaborado y un trasfondo reflexivo, esta cómica historia encaja en un marco inusual visualmente cuidado e impactante. Una Comedia que cala por la simplicidad de su trama principal, y engancha por los minuciosos detalles que te adentran en una realidad ficticia y muy visual. Enigmática y divertida a partes iguales, se trata de una historia de corazón en un entorno robotizado y futurista donde la cienciaficción es el paisaje.",
+        genres: ["crimen", "Acción", "Cienciaficción"],
         rate: "8.1",
         length: "2hr 00mins",
         img:
@@ -938,7 +938,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         description:
           "Massimo es miembro de la mafia siciliana y Laura es una directora de ventas. Ella no espera que un viaje a Sicilia salve su relación, pero Massimo la secuestrará durante 365 días para que se enamore de él.",
         genres: ["drama", "romance"],
-        rate: "9.1",
+        rate: "7.1",
         length: "1hr 56mins",
         img:
           "https://image.tmdb.org/t/p/w220_and_h330_face/jz8T3hrU6GuMqSuQ4Rbd4MJUeaq.jpg",
@@ -952,8 +952,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "CAMINO-HACIA-EL-DORADO",
         name: "CAMINO HACIA EL DORADO",
         description:
-          "Siglo XVI. Dos jóvenes estafadores ganan en un juego de dados un mapa a El Dorado pero son descubiertos y perseguidos por los guardias. Logran escapar pero terminan por meterse en el barco del mismisimo Hernán Cortés. Escapan en un bote del barco y llegan a tierra arrastrados por el mar. Allí deciden emprender la búsqueda de la ciudad de oro al reconocer indicios que aparecían en el mapa, pero su aventura no terminará como ellos lo esperan.",
-        genres: ["animacion", "aventura", "comedia"],
+          "Siglo XVI. Dos jóvenes estafadores ganan en un juego de dados un mapa a El Dorado pero son descubiertos y perseguidos por los guardias. Logran escapar pero terminan por meterse en el barco del mismisimo Hernán Cortés. Escapan en un bote del barco y llegan a tierra arrastrados por el mar. Allí deciden emprender la búsqueda de la ciudad de oro al reconocer indicios que aparecían en el mapa, pero su Aventura no terminará como ellos lo esperan.",
+        genres: ["animacion", "Aventura", "Comedia"],
         rate: "8.1",
         length: "1hr 29mins",
         img:
@@ -969,8 +969,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LAS NOVIAS DE MIS AMIGOS",
         description:
           "Tres amigos están en ese momento vital en el que no saben qué hacer con su vida sentimental. Jason y Daniel viven yendo de relación en relación con chicas con las que no quieren comprometerse, mientras que Mickey está casado y tiene problemas con su mujer. Todo cambiará para ellos una noche en que deciden salir de fiesta para animar a su amigo y Jason cae perdidamente enamorado de una chica a la que acaba de conocer.",
-        genres: ["romance", "comedia"],
-        rate: "9.0",
+        genres: ["romance", "Comedia"],
+        rate: "6.1",
         length: "1hr 40mins",
         img:
           "https://image.tmdb.org/t/p/w220_and_h330_face/fuC76J6XMKlhXBgjcP3GtU15Us0.jpg",
@@ -984,8 +984,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "ALADDIN",
         name: "ALADDIN",
         description:
-          "Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que consiste en entrar a una cueva en mitad del desierto para dar con una lámpara mágica que le concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una aventura como nunca antes había imaginado.",
-        genres: ["aventura", "fantasia", "romance", "familia"],
+          "Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que consiste en entrar a una cueva en mitad del desierto para dar con una lámpara mágica que le concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una Aventura como nunca antes había imaginado.",
+        genres: ["Aventura", "Fantasia", "romance", "familia"],
         rate: "7.5",
         length: "2hr 8mins",
         img:
@@ -1001,7 +1001,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "DEADPOOL 2",
         description:
           "Wade Wilson (Ryan Reynolds), mejor conocido como Deadpool, su nombre de batalla e identidad antiheroica, está de regreso con Deadpool 2 y en esta ocasión su misión será salvar a un chico llamado Russell (Julian Dennison) de las manos de un poderoso rival llamado Cable (Josh Brolin). En aras de dar cumplimiento a su tarea el antihéroe formará un grupo al cual pondrá el nombre de X-Force. Secuela de la exitosa película (recaudó más de 780 millones de dólares en todo el mundo) parodia de los superhéroes mutantes del 2016, también protagonizada por Reynolds.",
-        genres: ["aventura", "comedia", "accion"],
+        genres: ["Aventura", "Comedia", "Acción"],
         rate: "8.5",
         length: "2hr 00mins",
         img:
@@ -1017,7 +1017,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LINTERNA VERDE",
         description:
           "En un universo tan vasto como misterioso, una pequeña pero misteriosa fuerza ha existido por siglos. Protectores de la paz y la justicia se hace llamar el cuerpo de linternas verdes. Una hermandad de guerreros que juraron mantener el orden intergaláctico donde cada linterna verde lleva un anillo que le da superpoderes. Pero cuando un nuevo enemigo llamado Parallax amenaza con destruir el balance y el poder del universo, su destino y el de la tierra cae en manos del nuevo recluta; el primer humano que ha sido elegido: Hal Jordan.",
-        genres: ["aventura", "suspenso", "scifi", "accion"],
+        genres: ["Aventura", "Suspense", "Cienciaficción", "Acción"],
         rate: "8.5",
         length: "1hr 54mins",
         img:
@@ -1033,7 +1033,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "ARTEMIS FOWL",
         description:
           "La historia de Artemis Fowl es la de un niño de 12 años de edad que está a punto de arrebatar el poder al mundo subterráneo. Lo que él todavía no sabe es que sus habitantes: hadas, duendes, elfos... no son las criaturas maravillosas que siempre hemos imaginado y no van a consentir que un humano conozca sus secretos más sagrados. Como él, van armados hasta las barbas y conocen las últimas tecnologías: se prepara un trepidante duelo que puede provocar una auténtica guerra entre las especies del planeta.",
-        genres: ["aventura", "fantasia", "scifi", "familia"],
+        genres: ["Aventura", "Fantasia", "Cienciaficción", "familia"],
         rate: "8.5",
         length: "1hr 35mins",
         img:
@@ -1049,7 +1049,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "ANT-MAN",
         description:
           "Armado con la asombrosa capacidad de reducir su tamaño a la dimensiones de un insecto, el estafador Scott Lang debe sacar a relucir al héroe que lleva dentro y ayudar a su mentor, el doctor Hank Pym, a proteger de una nueva generación de amenazas el secreto que se esconde tras el traje de Ant-Man, con un casco que le permite comunicarse con las hormigas. A pesar de los obstáculos aparentemente insuperables que les acechan, Pym y Lang deben planear y llevar a cabo un atraco para intentar salvar al mundo.",
-        genres: ["aventura", "accion", "scifi"],
+        genres: ["Aventura", "Acción", "Cienciaficción"],
         rate: "8.5",
         length: "1hr 57mins",
         img:
@@ -1065,7 +1065,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "ANT-MAN Y LA AVISPA",
         description:
           "Mientras Scott Lang se convierte en un súper héroe y en un padre, Hope van Dyne y el Dr. Hank Pym presentan una nueva misión urgente que encuentra a Ant-Man luchando junto a The Wasp para descubrir secretos de su pasado.",
-        genres: ["aventura", "accion", "scifi"],
+        genres: ["Aventura", "Acción", "Cienciaficción"],
         rate: "8.5",
         length: "2hr 18mins",
         img:
@@ -1081,7 +1081,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "SCOTT PILGRIM CONTRA EL MUNDO",
         description:
           "Les presentamos al encantador y desempleado Scott Pilgrim (Michael Cera), bajista de un grupo “garage” de lo más corriente, los Sex Bob-omb. Este joven de 22 años acaba de conocer a la chica de sus sueños… la de verdad. ¿Cuál es el problema a la hora de conquistar a Ramona Flowers (Mary Elizabeth Winstead)? Los siete ex de la chica están decididos a matar a Scott.Scott Pilgrim nunca ha tenido problemas para echarse novia. Las dificultades aparecen cuando quiere cortar. Mientras intenta deshacerse de la última conquista, Ramona irrumpe en su vida, pero no tarda en descubrir que la mujer deseada arrastra un bagaje nada tranquilizador: sus ex controlan su vida amorosa y están dispuestos a hacer lo que sea para eliminar la competencia.",
-        genres: ["comedia", "accion", "fantasia", "romance"],
+        genres: ["Comedia", "Acción", "Fantasia", "romance"],
         rate: "8.5",
         length: "1hr 52mins",
         img:
@@ -1096,8 +1096,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "AQUAMAN",
         name: "AQUAMAN",
         description:
-          "Arthur Curry, también conocido como Aquaman (Jason Momoa), es un habitante de un poderoso reino subacuático que recibe el nombre de la Atlántida. En esta película repleta de acción, aventura, e incluso partes de terror, conoceremos sus orígenes, desde que era un niño criado por un hombre humano y considerado un paria por los suyos, hasta que crece y debe hacer frente a los problemas que han aparecido en su mundo. Entonces, este hombre mitad humano y mitad atlante, emprenderá el viaje de su vida, en el que tendrá que descubrir quién es realmente y si es digno de ser un rey. Acompañado de Mera (Amber Heard), hará frente a este y otros retos, mientras le planta cara a Black Manta (Yahya Abdul-Mateen II) y a su propio hermanastro Orm (Patrick Wilson). ¿Será capaz de dirigir a su pueblo y convertirse en un héroe para el mundo?",
-        genres: ["aventura", "accion", "fantasia"],
+          "Arthur Curry, también conocido como Aquaman (Jason Momoa), es un habitante de un poderoso reino subacuático que recibe el nombre de la Atlántida. En esta película repleta de acción, Aventura, e incluso partes de Terror, conoceremos sus orígenes, desde que era un niño criado por un hombre humano y considerado un paria por los suyos, hasta que crece y debe hacer frente a los problemas que han aparecido en su mundo. Entonces, este hombre mitad humano y mitad atlante, emprenderá el viaje de su vida, en el que tendrá que descubrir quién es realmente y si es digno de ser un rey. Acompañado de Mera (Amber Heard), hará frente a este y otros retos, mientras le planta cara a Black Manta (Yahya Abdul-Mateen II) y a su propio hermanastro Orm (Patrick Wilson). ¿Será capaz de dirigir a su pueblo y convertirse en un héroe para el mundo?",
+        genres: ["Aventura", "Acción", "Fantasia"],
         rate: "8.5",
         length: "2hr 22mins",
         img:
@@ -1113,7 +1113,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "PANTERA NEGRA",
         description:
           '"Black Panther" cuenta la historia de TChalla quien, después de los acontecimientos de "Capitán América: Civil War", vuelve a casa, a la nación de Wakanda, aislada y muy avanzada tecnológicamente, para ser proclamado Rey. Pero la reaparición de un viejo enemigo pone a prueba el temple de TChalla como Rey y Black Panther ya que se ve arrastrado a un conflicto que pone en peligro todo el destino de Wakanda y del mundo.',
-        genres: ["aventura", "accion", "fantasia", "scifi"],
+        genres: ["Aventura", "Acción", "Fantasia", "Cienciaficción"],
         rate: "7.4",
         length: "2hr 14mins",
         img:
@@ -1129,7 +1129,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "BLADE",
         description:
           'En un mundo cohabitado en guerra por hombres y vampiros Blade es un vampiro que, al contrario que el resto, no se alimenta de humanos, y que pretende acabar con la raza de "seres superiores" que mordieron a su madre cuando estaba embarazada.',
-        genres: ["accion", "terror", "scifi"],
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "6.7",
         length: "2hr 00mins",
         img:
@@ -1144,8 +1144,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "BLADE-2",
         name: "BLADE 2",
         description:
-          "Una nueva raza de vampiros, los Reapers, surge para atacar tanto a los humanos como a los de su propia raza, causando el terror. El Consejo de la Sombra, un grupo de vampiros que teme por su supervivencia y que tiene su sede en Praga, contacta con Blade para que acabe con ellos.",
-        genres: ["accion", "terror", "scifi"],
+          "Una nueva raza de vampiros, los Reapers, surge para atacar tanto a los humanos como a los de su propia raza, causando el Terror. El Consejo de la Sombra, un grupo de vampiros que teme por su supervivencia y que tiene su sede en Praga, contacta con Blade para que acabe con ellos.",
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "6.7",
         length: "1hr 57mins",
         img:
@@ -1161,7 +1161,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "BLADE TRINITY",
         description:
           "Durante años, Blade ha luchado contra los vampiros sin que el mundo supiera lo que sucedía en los bajos fondos. Pero ahora, tras caer en las redes del FBI, se ve forzado a salir a la luz del día para unir sus fuerzas con un clan de humanos cazadores de vampiros que nunca supo que existían, los Nightstalkers. Junto a Abigail y Hannibal, Blade sigue la pista de una Antigua criatura que lo está acechando el vampiro original: Drácula.",
-        genres: ["accion", "terror", "scifi"],
+        genres: ["Acción", "Terror", "Cienciaficción"],
         rate: "6.7",
         length: "2hr 3mins",
         img:
@@ -1177,7 +1177,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "CAPITAN AMERICA EL PRIMER VENGADOR",
         description:
           "Nacido durante la Gran Depresión, Steve Rogers creció como un chico enclenque en una familia pobre. Horrorizado por las noticias que llegaban de Europa sobre los nazis, decidió enrolarse en el ejército; sin embargo, debido a su precaria salud, fue rechazado una y otra vez. Enternecido por sus súplicas, el general Chester Phillips le ofrece la oportunidad de tomar parte en un experimento especial: la Operación Renacimiento. Tras meses de preparación y entrenamiento recibe su primera misión como Capitán América. Armado con un escudo indestructible y su inteligencia para la batalla, el Capitán América emprende la guerra contra el mal, como centinela de la libertad y como líder de los Vengadores.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.9",
         length: "2hr 4mins",
         img:
@@ -1193,7 +1193,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "CAPITAN AMERICA Y EL SOLDADO DEL INVIERNO",
         description:
           "Capitán América, Viuda Negra y un nuevo aliado, Falcon, se enfrentan a un enemigo inesperado mientras intentan sacar a la luz una conspiración que pone en riesgo al mundo.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.9",
         length: "2hr 4mins",
         img:
@@ -1209,7 +1209,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "CAPITAN AMERICA CIVIL WAR",
         description:
           '"Captain America: Civil War” continúa la historia de “Avengers: Age of Ultron”, con Steve Rogers liderando un nuevo equipo de Vengadores en su esfuerzo por proteger a la humanidad. Tras otro incidente internacional relacionado con los Vengadores que ocasiona daños colaterales, la presión política fuerza a crear un sistema de registro y un cuerpo gubernamental para determinar cuándo se requiere los servicios del equipo. El nuevo status quo divide a los Vengadores mientras intentan salvar al mundo de un nuevo y perverso villano.',
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.8",
         length: "2hr 27mins",
         img:
@@ -1225,7 +1225,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "CAPITANA MARVEL",
         description:
           "La historia sigue a Carol Danvers mientras se convierte en uno de los héroes más poderosos del universo, cuando la Tierra se encuentra atrapada en medio de una guerra galáctica entre dos razas alienígenas. Situada en los años 90, Capitana Marvel es una historia nueva de un período de tiempo nunca antes visto en la historia del Universo Cinematográfico de Marvel.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.8",
         length: "2hr 5mins",
         img:
@@ -1241,7 +1241,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "DAREDEVIL",
         description:
           "Un abogado ciego se convierte en un superhéroe nocturno que pone en manos de la justicia a los criminales de Nueva York",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.8",
         length: "2hr 5mins",
         img:
@@ -1257,7 +1257,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "DOCTOR STRANGE",
         description:
           "La vida del Dr. Stephen Strange cambia para siempre tras un accidente automovilístico que le deja muy malheridas sus manos. Cuando la medicina tradicional falla, se ve obligado a buscar esperanza y una cura en un lugar impensable: una comunidad aislada en Nepal llamada Kamar-Taj. Rápidamente descubre que éste no es sólo un centro de recuperación, sino también la primera línea de una batalla en contra de fuerzas oscuras y ocultas empeñadas en destruir nuestra realidad. En poco tiempo, Strange, armado con sus poderes mágicos recientemente adquiridos, se ve obligado a elegir entre volver a su antigua vida de riqueza y prestigio o dejarlo todo, para defender el mundo como el mago más poderoso del planeta.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.9",
         length: "1hr 55mins",
         img:
@@ -1273,7 +1273,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL AVIPON VERDE",
         description:
           "De noche, Britt Reid (Seth Rogen), heredero del gran imperio periodístico creado por su padre (Tom Wilkinson), se convierte en un héroe enmascarado que se propone combatir el crimen: es The Green Hornet. Su compañero de aventuras es Jato (Jay Chou), un experto en artes marciales.",
-        genres: ["accion", "crimen", "comedia"],
+        genres: ["Acción", "crimen", "Comedia"],
         rate: "5.9",
         length: "1hr 57mins",
         img:
@@ -1289,7 +1289,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL HOMBRE ARAÑA",
         description:
           "Peter Parker es un joven y tímido estudiante que vive con su tía May y su tío Ben desde la muerte de sus padres, siendo él muy pequeño. Peter está enamorado de su guapa vecina, pero su escaso carisma no le hace ser precisamente muy popular en el instituto. Un día es mordido por una araña que ha sido modificada genéticamente, descubriendo al día siguiente que posee unos poderes poco habituales: tiene la fuerza y agilidad de una araña. Las aventuras del hombre araña, basadas en el famoso cómic de Stan Lee y Steve Ditko, arrasó en las taquillas americanas y pulverizó los récords de recaudación en su primer fin de semana: 114 millones de dólares, la primera vez en la historia que se consiguió pasar de la barrera de los 100 millones en un fin de semana normal.",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "7.1",
         length: "2hr 1mins",
         img:
@@ -1305,7 +1305,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL HOMBRE ARAÑA 2",
         description:
           'Han pasado dos años desde que el tranquilo Peter Parker dejó a Mary Jane Watson, su gran amor, y decidió seguir asumir sus responsabilidades como Spider-Man. Peter debe afrontar nuevos desafíos mientras lucha contra el don y la maldición de sus poderes equilibrando sus dos identidades: el escurridizo superhéroe Spider-Man y el estudiante universitario. Las relaciones con las personas que más aprecia están ahora en peligro de ser descubiertas con la aparición del poderoso villano de múltiples tentáculos Doctor Octopus, "Doc Ock". Su atracción por M.J. se hace más fuerte mientras lucha contra el impulso de abandonar su vida secreta y declarar su amor. Mientras tanto, M.J. ha seguido con su vida. Se ha embarcado en su carrera de actriz y tiene un nuevo hombre en su vida. La relación de Peter con su mejor amigo Harry Osborn se ha alejado por la creciente venganza de Harry contra Spider-Man, al que considera responsable de la muerte de su padre.',
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "7.1",
         length: "2hr 16mins",
         img:
@@ -1321,7 +1321,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL HOMBRE ARAÑA 3",
         description:
           "Tercera entrega de las aventuras del joven Peter Parker (Maguire). Parece que Parker ha conseguido por fin el equilibrio entre su devoción por Mary Jane y sus deberes como superhéroe. Pero, de repente, su traje cambia volviéndose negro y aumentando sus poderes; también Peter se transforma, sacando el lado más oscuro y vengativo de su personalidad. Bajo la influencia de este nuevo traje, Peter deja de proteger a la gente que realmente lo quiere y se preocupa por él. En estas circunstancias, no tiene más remedio que elegir entre disfrutar del tentador poder del nuevo traje o seguir siendo el compasivo héroe de antes. Mientras tanto, dos temibles enemigos, Venom y el Hombre de Arena, utilizarán sus poderes para calmar su sed de venganza.",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "7.1",
         length: "2hr 19mins",
         img:
@@ -1337,7 +1337,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL HOMBRE DE ACERO",
         description:
           "Un niño descubre que posee poderes extraordinarios y que no pertenece a este planeta. En su juventud, viaja para descubrir sus orígenes y las razones por las cuales ha sido enviado a la Tierra. Pero el héroe que lleva dentro tiene que emerger para que pueda salvar al mundo de la aniquilación y convertirse en el símbolo de esperanza para la humanidad.",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "7.6",
         length: "2hr 28mins",
         img:
@@ -1353,7 +1353,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "ELEKTRA",
         description:
           'Elektra (Jennifer Garner), tras recuperarse de las mortales heridas sufridas en "Daredevil", se conviertre en la más peligrosa asesina del mundo. Una vez asignada su última misión, Elektra tomará una decisión que llevará su vida en una nueva dirección... o la destruirá para siempre.',
-        genres: ["accion", "fantasia", "scifi"],
+        genres: ["Acción", "Fantasia", "Cienciaficción"],
         rate: "8.6",
         length: "1hr 37mins",
         img:
@@ -1369,7 +1369,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X-MEN ORIGENES",
         description:
           "Precuela de la película X-Men. Situada 17 años antes, narra los inicios del arma X y la forma en la que Wolverine se convirtió en mutante. Logan, convertido en un mutante que se hace llamar Wolverine, y que es capaz de sacar unas afiladas garras y de una fuerza y agilidad sobrehumana, ultima su venganza contra Victor Creed, culpable de la muerte de su novia. Mientras tanto, otros mutantes se acogen al programa X para unir sus fuerzas..",
-        genres: ["accion", "fantasia", "scifi"],
+        genres: ["Acción", "Fantasia", "Cienciaficción"],
         rate: "8.6",
         length: "1hr 47mins",
         img:
@@ -1385,7 +1385,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "ESCUADRON SUICIDA",
         description:
           "Mientras el gobierno de EE.UU no tiene claro cómo responder a una visita alienígena a la Tierra con intenciones malignas, Amanda El Muro Waller, la líder de la agencia secreta A.R.G.U.S., ofrece una curiosa solución: reclutar a los villanos más crueles, con habilidades letales e incluso mágicas, para que trabajen para ellos. Sin demasiadas opciones a dar una negativa, los ocho supervillanos más peligrosos del mundo acceden a colaborar con el Ejecutivo en peligrosas misiones secretas, casi suicidas, para así lograr limpiar su expediente.",
-        genres: ["accion", "fantasia", "aventura", "scifi"],
+        genres: ["Acción", "Fantasia", "Aventura", "Cienciaficción"],
         rate: "7.8",
         length: "2hr 3mins",
         img:
@@ -1401,7 +1401,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LOS CUATROS FANTASTICOS",
         description:
           "Cuatro astronautas se convierten en superhéroes tras ser contaminados en el espacio exterior. En compañía del benefactor del proyecto, el ambicioso Von Doom (Julian McMahon), los cuatro parten para la exploración de sus vidas. La misión discurre sin incidentes hasta que Reed descubre que hay un error de cálculo en la velocidad con la que se acerca la tormenta. En unos minutos, el umbral de este fenómeno atmosférico está sobre ellos. La estación espacial se ve engullida por turbulentas nubes de radiación cósmica que cambian el genoma de la tripulación. Su ADN se ve irrevocablemente alterado.... y ése va a ser su futuro. De regreso a la Tierra, los efectos de la exposición muestran rápidamente sus primeros síntomas brindando a cada uno de ellos poderes sobrenaturales, convirtiéndose en Los Cuatro Fantásticos: Míster Fantástico, La Chica Invisible, La Antorcha Humana y La Cosa.",
-        genres: ["accion", "fantasia", "aventura", "scifi"],
+        genres: ["Acción", "Fantasia", "Aventura", "Cienciaficción"],
         rate: "7.1",
         length: "1hr 45mins",
         img:
@@ -1417,7 +1417,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LOS CUATROS FANTASTICOS Y SILVER SURFER",
         description:
           "La primera familia de superhéroes de Marvel, los Cuatro Fantásticos, se enfrentan a su mayor reto hasta la fecha cuando un enigmático heraldo intergaláctico, Estela Plateada, llega a la Tierra para prepararla para su destrucción. Mientras Estela Plateada recorre el mundo sembrando la destrucción, Reed, Sue, Johnny y Ben deben desentrañar el misterio de dicho personaje, y hacer frente al sorprendente regreso de su mortal enemigo el Doctor Muerte, antes de perder toda esperanza.",
-        genres: ["accion", "fantasia", "aventura", "scifi"],
+        genres: ["Acción", "Fantasia", "Aventura", "Cienciaficción"],
         rate: "7.1",
         length: "1hr 32mins",
         img:
@@ -1433,7 +1433,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "GHOST RIDER EL VENGADOR FANTASMA",
         description:
           "Adaptación del famoso cómic de la Marvel. Hace mucho tiempo, la superestrella de las acrobacias en moto, Johnny Blaze (Nicolas Cage) hizo un trato con el diablo para proteger a los que más quería: su padre y su novia de la juventud, Roxanne (Eva Mendes). Ahora, el diablo ha venido a cobrar su deuda. De día, Johnny es un motero acróbata temerario... pero de noche, en presencia del diablo, se convierte en Ghost Rider, un cazarecompensas de demonios deshonestos. Obligado a hacer la voluntad del diablo, Johnny está decidido a enfrentarse a su destino y utilizar su maldición y sus poderes para defender al inocente.",
-        genres: ["accion", "fantasia", "suspenso"],
+        genres: ["Acción", "Fantasia", "Suspense"],
         rate: "7.0",
         length: "1hr 50mins",
         img:
@@ -1449,7 +1449,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "GHOST RIDER EL CONTRATO DE SAN VENGANZA",
         description:
           'Nueva adaptación del cómic "El motorista fantasma". Con el fin de controlar sus deseos de venganza, Johnny Blaze (Nicolas Cage), que ve sus poderes como una maldición, vive apartado del mundo y sin relacionarse con nadie, pero acaba siendo localizado por el monje Moreau, que necesita su ayuda para buscar a Nadya y a su hijo Danny antes de que los encuentre Roarke, un viejo conocido de Blaze.',
-        genres: ["accion", "fantasia", "suspenso"],
+        genres: ["Acción", "Fantasia", "Suspense"],
         rate: "7.0",
         length: "1hr 36mins",
         img:
@@ -1465,7 +1465,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "GUARDIANES DE LA GALAXIA ",
         description:
           "El temerario aventurero Peter Quill es objeto de un implacable cazarrecompensas después de robar una misteriosa esfera codiciada por Ronan, un poderoso villano cuya ambición amenaza todo el universo. Para poder escapar del incansable Ronan, Quill se ve obligado a pactar una complicada tregua con un cuarteto de disparatados inadaptados: Rocket, un mapache armado con un rifle, Groot, un humanoide con forma de árbol, la letal y enigmática Gamora y el vengativo Drax the Destroyer. Pero cuando Quill descubre el verdadero poder de la esfera, deberá hacer todo lo posible para derrotar a sus extravagantes rivales en un intento desesperado de salvar el destino de la galaxia.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 2mins",
         img:
@@ -1481,7 +1481,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "GUARDIANES DE LA GALAXIA-VOL2",
         description:
           "Una poderosa raza alienígena contrata a los Guardianes para que protejan sus valiosas baterías de energía, pero, cuando Rocket las roba, los alienígenas envían a sus tropas de combate a vengarse de ellos. Mientras tratan de escapar con vida, intentan resolver el misterio de los verdaderos orígenes de Peter Quill.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 17mins",
         img:
@@ -1497,7 +1497,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "IRON MAN",
         description:
           'El multimillonario fabricante de armas Tony Stark debe enfrentarse a su turbio pasado después de sufrir un accidente con una de sus armas. Equipado con una armadura de última generación tecnológica, se convierte en "El hombre de hierro" para combatir el mal a escala global.',
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.2",
         length: "2hr 6mins",
         img:
@@ -1513,7 +1513,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "IRON MAN 2",
         description:
           "El mundo sabe que el multimillonario Tony Stark es Iron Man, el superhéroe enmascarado. Sometido a presiones por parte del gobierno, la prensa y la opinión pública para que comparta su tecnología con el ejército, Tony es reacio a desvelar los secretos de la armadura de Iron Man porque teme que esa información pueda caer en manos indeseables..",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.2",
         length: "2hr 5mins",
         img:
@@ -1529,7 +1529,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "IRON MAN 3",
         description:
           "El descarado y brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez. Acorralado, Stark tendrá que sobrevivir por sus propios medios, confiando en su ingenio y su instinto para proteger a las personas que quiere.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "8.2",
         length: "2hr 10mins",
         img:
@@ -1545,7 +1545,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "KICK-ASS",
         description:
           "Dave Lizewski es un estudiante de instituto que pasa desapercibido por todos, aficionado a los cómics, de donde saca un día la idea de convertirse en un superhéroe, aunque no tenga superpoderes, no haya seguido un duro entrenamiento y ni siquiera tenga una razón significativa para ello. Pero la vida de Dave cambiará para siempre cuando se encuentre con un par de locos vigilantes -la terremoto de 11 años Hit Girl y su padre, Big Daddy- y forje amistad con otro joven luchador contra el crimen, Red Mist. Y cuando todos se tengan que enfrentar al jefe de la mafia local, Frank DAmico, sus alianzas y sus verdaderas habilidades serán puestas a prueba.",
-        genres: ["accion", "crimen", "scifi"],
+        genres: ["Acción", "crimen", "Cienciaficción"],
         rate: "7.2",
         length: "1hr 57mins",
         img:
@@ -1561,7 +1561,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "KICK-ASS 2",
         description:
           "Secuela de la aclamada película Kick-Ass (2010), basada en el cómic de Mark Millar. Después de que la loca valentía de Kick-Ass (Aaron Taylor-Johnson) inspirara a toda una oleada de nuevos defensores del bien dirigidos por el durísimo coronel Stars and Stripes (Jim Carrey), nuestro héroe decide unirse a ellos. Pero cuando Bruma Roja (Christopher Mintz-Plasse), que regresa con el nombre de The Mother, decide deshacerse de los superhéroes aficionados, solo Hit Girl (Chloë Grace Moretz) podrá impedir que los aniquile.",
-        genres: ["accion", "crimen", "scifi"],
+        genres: ["Acción", "crimen", "Cienciaficción"],
         rate: "7.2",
         length: "1hr 43mins",
         img:
@@ -1577,7 +1577,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LA MUJER MARAVILLA",
         description:
           "Antes de ser Wonder Woman, era Diana, princesa de las Amazonas, entrenada para ser una guerrera invencible. Diana fue criada en una isla paradisíaca protegida. Hasta que un día un piloto norteamericano, que tiene un accidente y acaba en sus costas, le habla de un gran conflicto existente en el mundo, la Primera Guerra Mundial. Diana decide salir de la isla convencida de que puede detener la terrible amenaza. Mientras lucha junto a los hombres en la guerra que acabará con todas las guerras, Diana descubre todos sus poderes y su verdadero destino.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.3",
         length: "2hr 21mins",
         img:
@@ -1593,7 +1593,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LOGAN",
         description:
           "Sin sus poderes, por primera vez, Lobezno es verdaderamente vulnerable. Después de una vida de dolor y angustia, sin rumbo y perdido en el mundo donde los X-Men son leyenda, su mentor Charles Xavier lo convence de asumir una última misión: proteger a una joven que será la única esperanza para la raza mutante.",
-        genres: ["accion", "drama", "scifi"],
+        genres: ["Acción", "drama", "Cienciaficción"],
         rate: "7.8",
         length: "2hr 17mins",
         img:
@@ -1609,7 +1609,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "SHAZAM",
         description:
           "Todos llevamos un superhéroe dentro, solo se necesita un poco de magia para sacarlo a la luz. Cuando Billy Batson, un niño de acogida de 14 años que ha crecido en las calles, grita la palabra SHAZAM!se convierte en el Superhéroe adulto Shazam, por cortesía de un antiguo mago. Dentro de un cuerpo musculoso y divino, Shazam esconde un corazón de niño. Pero lo mejor es que en esta versión de adulto consigue realizar todo lo que le gustaría hacer a cualquier adolescente con superpoderes: ¡divertirse con ellos! ¿Volar? ¿Tener visión de rayos X? ¿Disparar un rayo con las manos? ¿Saltarse el examen de sociales? Shazam va a poner a prueba los límites de sus habilidades con la inconsciencia propia de un niño. Pero necesitará dominar rápidamente esos poderes para luchar contra las letales fuerzas del mal que controla el Dr. Thaddeus Sivana.",
-        genres: ["accion", "comedia", "scifi"],
+        genres: ["Acción", "Comedia", "Cienciaficción"],
         rate: "7.0",
         length: "2hr 12mins",
         img:
@@ -1625,7 +1625,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LIGA DE LA JUSTICIA",
         description:
           "Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.",
-        genres: ["accion", "aventura", "scifi"],
+        genres: ["Acción", "Aventura", "Cienciaficción"],
         rate: "7.5",
         length: "2hr 1mins",
         img:
@@ -1641,7 +1641,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "SPAWN",
         description:
           "Un mercenario llamado Al Simmons es traicionado y asesinado por su diabólico jefe. Cuando baja a los infiernos hace un pacto con el diablo para volver a la tierra bajo la figura de Spawn, y así poder volver a ver a su mujer.",
-        genres: ["accion", "aventura", "fantasia", "terror", "scifi"],
+        genres: ["Acción", "Aventura", "Fantasia", "Terror", "Cienciaficción"],
         rate: "6.5",
         length: "1hr 36mins",
         img:
@@ -1657,7 +1657,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "SPIDER MAN REGRESO A CASA",
         description:
           "Peter Parker comienza a experimentar su recién descubierta identidad como el superhéroe Spider-Man. Después de la experiencia vivida con los Vengadores, Peter regresa a casa, donde vive con su tía. Bajo la atenta mirada de su mentor Tony Stark, Peter intenta mantener una vida normal como cualquier joven de su edad, pero interrumpe en su rutina diaria el nuevo villano Vulture y, con él, lo más importante de la vida de Peter comenzará a verse amenazado.",
-        genres: ["accion", "aventura", "drama", "scifi"],
+        genres: ["Acción", "Aventura", "drama", "Cienciaficción"],
         rate: "7.5",
         length: "1hr 50mins",
         img:
@@ -1672,8 +1672,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "SPIDER-MAN-LEJOS-DE-CASA",
         name: "SPIDER MAN LEJOS DE CASA",
         description:
-          "Peter Parker decide irse junto a Michelle Jones, Ned y el resto de sus amigos a pasar unas vacaciones a Europa después de los eventos ocurridos en Vengadores: EndGame. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuándo es reclutado por Nick Fury para unirse a Mysterio (un humano que proviene de la Tierra 833, una dimensión del multiverso, que tuvo su primera aparición en Doctor Strange) para luchar contra los elementales (cuatro entes inmortales que vienen de la misma dimensión y que dominan los cuatro elementos de la naturaleza, el fuego, el agua, el aire y la tierra) . En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
-        genres: ["accion", "aventura", "drama", "scifi"],
+          "Peter Parker decide irse junto a Michelle Jones, Ned y el resto de sus amigos a pasar unas vacaciones a Europa después de los eventos ocurridos en Vengadores: EndGame. Sin embargo, el plan de Parker por dejar de lado sus superpoderes durante unas semanas se ven truncados cuándo es reclutado por Nick Fury para unirse a Misterio (un humano que proviene de la Tierra 833, una dimensión del multiverso, que tuvo su primera aparición en Doctor Strange) para luchar contra los elementales (cuatro entes inmortales que vienen de la misma dimensión y que dominan los cuatro elementos de la naturaleza, el fuego, el agua, el aire y la tierra) . En ese momento, Parker vuelve a ponerse el traje de Spider-Man para cumplir con su labor.",
+        genres: ["Acción", "Aventura", "drama", "Cienciaficción"],
         rate: "7.5",
         length: "2hr 15mins",
         img:
@@ -1689,7 +1689,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "LOS VENGADORES",
         description:
           'Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel "Los Vengadores", el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.',
-        genres: ["accion", "aventura", "drama", "scifi"],
+        genres: ["Acción", "Aventura", "drama", "Cienciaficción"],
         rate: "8.0",
         length: "2hr 23mins",
         img:
@@ -1705,7 +1705,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL INCREIBLE HULK",
         description:
           "El científico Bruce Banner recorre el mundo tratando de encontrar una cura a su problema, en busca de un antídoto que le permita librarse de su Alter Ego. Perseguido por el ejército y por su propia rabia interna, es incapaz de sacar de su cabeza a Betty Ross. Así que se decide a volver a la civilización, donde debe enfrentarse a una criatura creada cuando el agente de la KGB, Emil Blonsky, se expone a una dosis superior de la radiación que convirtió a Bruce en Hulk. Incapaz de volver a su estado humano, Emil hace responsable a Hulk de su aterradora condición, mientras que la ciudad de Nueva York se convierte en el escenario de la última batalla entre las dos criaturas más poderosas que jamás han pisado la Tierra.",
-        genres: ["accion", "aventura", "drama", "scifi"],
+        genres: ["Acción", "Aventura", "drama", "Cienciaficción"],
         rate: "6.5",
         length: "1hr 54mins",
         img:
@@ -1721,7 +1721,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL CASTIGADOR",
         description:
           "Frank Castle (Thomas Jane) es un agente secreto del FBI que hasta el momento ha logrado una carrera intachable. Frank también es un ex operativo de las Fuerzas Especiales. Finalmente sale del campo de batalla para trabajar en una oficina y así poder tener una vida normal con su esposa e hijo. Será entonces cuando el mundo de Frank se viene abajo por el peor temor que siempre tuvo: Su familia es ejecutada como repercusión de su último trabajo. Ahora Castle busca castigar a los asesinos, para encontrar al final lo que menos esperaba: La redención.",
-        genres: ["accion", "crimen", "drama", "scifi"],
+        genres: ["Acción", "crimen", "drama", "Cienciaficción"],
         rate: "6.2",
         length: "2hr 4mins",
         img:
@@ -1737,7 +1737,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "EL CASTIGADOR ZONA DE GUERRA",
         description:
           'Película basada en el anti-héroe de Marvel Frank Castle, también conocido como "El castigador". Continuando su cruzada para castigar a criminales violentos en América, el agente del FBI Frank Castle (Ray Stevenson), llega a Nueva York en busca de un jefe que controla los bajos fondos de la ciudad. ',
-        genres: ["accion", "crimen", "drama", "scifi"],
+        genres: ["Acción", "crimen", "drama", "Cienciaficción"],
         rate: "5.7",
         length: "1hr 47mins",
         img:
@@ -1753,7 +1753,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "THOR",
         description:
           "Thor es un arrogante y codicioso guerrero cuya imprudencia desata una antigua guerra. Por ese motivo, su padre Odín lo castiga desterrándolo a la Tierra para que viva entre los hombres y descubra así el verdadero sentido de la humildad. Cuando el villano más peligroso de su mundo envía a la Tierra a las fuerzas más oscuras de Asgard, Thor se dará cuenta de lo que realmente hace falta para ser un verdadero héroe.",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "6.7",
         length: "1hr 55mins",
         img:
@@ -1769,7 +1769,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "THOR UN MUNDO OSCURO",
         description:
           "Thor lucha por restablecer el orden en el cosmos, pero una antigua raza liderada por el vengativo Malekith regresa con el propósito de volver a sumir el universo en la oscuridad. Se trata de un villano con el que ni siquiera Odín y Asgard se atreven a enfrentarse; por esa razón, Thor tendrá que emprender un viaje muy peligroso, durante el cual se reunirá con Jane Foster y la obligará a sacrificarlo todo para salvar el mundo.",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "6.7",
         length: "1hr 52mins",
         img:
@@ -1785,7 +1785,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "THOR RAGNAROK",
         description:
           "Thor está preso al otro lado del universo sin su poderoso martillo y se enfrenta a una carrera contra el tiempo. Su objetivo es volver a Asgard y parar el Ragnarok porque significaría la destrucción de su planeta natal y el fin de la civilización Asgardiana a manos de una todopoderosa y nueva amenaza, la implacable Hela. Pero, primero deberá sobrevivir a una competición letal de gladiadores que lo enfrentará a su aliado y compañero en los Vengadores, ¡el Increíble Hulk!",
-        genres: ["accion", "fantasia", "aventura"],
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "7.6",
         length: "2hr 11mins",
         img:
@@ -1801,7 +1801,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "VENOM",
         description:
           "Eddie Brock (Tom Hardy) es un consolidado periodista y astuto reportero que está investigando una empresa llamada Fundación Vida. Esta fundación, dirigida por el eminente científico Carlton Drake (Riz Ahmed), está ejecutando secretamente experimentos ilegales en seres humanos y realizando pruebas que involucran formas de vida extraterrestres y amorfas conocidas como simbiontes. Durante una visita furtiva a la central, el periodista quedará infectado por un simbionte. Comenzará entonces a experimentar cambios en su cuerpo que no entiende, y escuchará una voz interior, la del simbionte Venom, que le dirá lo que tiene que hacer. Cuando Brock adquiera los poderes del simbionte que le usa como huésped, Venom tomará posesión de su cuerpo, convirtiéndole en un despiadado y peligroso súpervillano.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "6.7",
         length: "1hr 52mins",
         img:
@@ -1817,7 +1817,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "WOLVERINE INMORTAL",
         description:
           'Secuela de "X-Men: la decisión final". El film se centra en la soledad del protagonista tras la desaparición definitiva de Jean Grey y otros compañeros. Logan amnésico busca respuestas sobre su pasado en el mundo del crimen organizado de Japón, donde un hombre al que salvó la vida en el pasado le ofrece algo que lleva tiempo deseando: hacer a Wolverine mortal.',
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "6.5",
         length: "2hr 6mins",
         img:
@@ -1833,7 +1833,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN",
         description:
           "En un futuro cercano, la humanidad comienza a ver aparecer una nueva raza; los mutantes. Dotados de extraños y variados poderes, están agrupados en dos bandos: los que abogan por la integración y el entendimiento con la humanidad, encabezados por el doctor Charles Xavier, y los que buscan el enfrentamiento con una raza que consideran inferior y que les odia, dirigidos por Magnus, alias Magneto, un peligroso mutante con extraordinarios poderes.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "1hr 44mins",
         img:
@@ -1849,7 +1849,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN 2",
         description:
           "Los mutantes son seres humanos con alguna variación genética que les dota de características especiales. También son la más moderna minoría perseguida del mundo. En medio de un clima de rabia y persecución, el profesor Xavier ha creado un instituto, un refugio, para estos seres poderosos. En este lugar los iniciados son preparados para aceptar y dominar sus habilidades, y ponerlas al servicio de la tolerancia y el combate contra la creciente histeria colectiva que está amenazando con su existencia. Pero la reputación de los mutantes será todavía peor cuando uno de ellos lanza un devastador ataque, lo que conlleva causas una pública recriminación hacia todos ellos y nuevos poderes para la Mutant Registration Act y William Stryker, un líder militar que pretende acabar con todos ellos centrándose en la escuela de X-Men.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "2hr 13mins",
         img:
@@ -1865,7 +1865,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN 3",
         description:
           'En X-Men: La decisión final, el último capítulo de la trilogía cinematográfica de los "X-Men", hay una "cura" para los mutantes que amenaza con alterar el curso de la historia. Por primera vez, los mutantes pueden elegir: seguir con su singularidad, aunque eso les aísle y les separe, o renunciar a sus poderes y convertirse en seres humanos normales. Los opuestos puntos de vista de los líderes mutantes, Charles Xavier, que aboga por la tolerancia, y Magneto, que cree en la supervivencia de los más aptos, se ven sometidos a la prueba definitiva: desencadenar la guerra que pondrá fin a todas las guerras.',
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "1hr 45mins",
         img:
@@ -1881,7 +1881,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN APOCALIPSIS",
         description:
           "Desde los albores de la civilización, fue adorado como un dios. Apocalypse, el primer y más poderoso mutante del universo X-Men de Marvel, acumuló los poderes de muchos otros mutantes, convirtiéndose en inmortal e invencible. Pero al despertar tras miles de años, se encuentra desilusionado con el mundo en que se encuentra y decide reclutar un equipo de mutantes poderosos, entre ellos a un descorazonado Magneto (Michael Fassbender), con el fin de limpiar la humanidad y crear una nueva orden mundial, sobre la cual él reinará. A medida que el destino de la tierra está en juego, Raven (Jennifer Lawrence) con la ayuda del Profesor X (James McAvoy) se unirán junto a un equipo de jóvenes X-Men para detener a su mayor enemigo y salvar así a la humanidad de la destrucción total.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "2hr 24mins",
         img:
@@ -1897,7 +1897,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN EL FENIX OSCURO",
         description:
           "Los X-Men se enfrentan a su enemigo más poderoso: uno de sus miembros, Jean Grey. Durante una misión de rescate en el espacio, Jean casi muere al ser alcanzada por una misteriosa fuerza cósmica. Cuando regresa a casa, esa radiación la ha hecho más poderosa, pero mucho más inestable. Mientras lucha con la entidad que habita en su interior, Jean desata sus poderes de formas que no puede controlar ni comprender. Jean cae en una espiral fuera de control haciendo daño a aquellos que más ama y empieza a destruir los lazos que mantienen unidos a los X-Men.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "1hr 56mins",
         img:
@@ -1913,7 +1913,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN DIAS DEL FUTURO PASADO ",
         description:
           "Ambientada en la década de los 70, los miembros de la famosa Patrulla X tendrán que evitar un futuro apocalíptico en el que los mutantes luchan por sobrevivir en campos de concentración controlados por los temibles Centinelas. Para ello, los héroes del universo Marvel deberán unificar sus fuerzas dejando a un lado la creciente enemistad de los bandos liderados por Charles Xavier y Magneto. Trask Industries, la empresa encargada de crear a estos gigantescos cazamutantes, será el origen de todos sus problemas. Tan sólo viajando en el tiempo podrán impedir la masacre que se avecina. ¿Serán capaces nuestros héroes de derrocar a la multinacional y evitar así el exterminio de su especie?",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "2hr 10mins",
         img:
@@ -1929,7 +1929,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "X MEN PRIMERA GENERACION",
         description:
           "Comienzo de la saga de los X-Men, esta es una historia secreta que alude a conocidos acontecimientos mundiales. Antes de que los mutantes se mostraran al mundo, y antes de que cambiaran sus nombres por los de Profesor X y Magneto, Charles Xavier (James McAvoy) y Erik Lehnsherr (Michael Fassbender) eran dos jóvenes que descubrían sus poderes. No había animadversión alguna entre ellos, sino que les unía una sincera amistad y la decisión de acabar con el trabajar juntos y entrenar a un grupo de jóvenes mutantes para evitar el Armagedón nuclear. Su enemigo común: el malvado Sebastian Shaw (Kevin Bacon), un humano con poderes con el que Erik tiene una cuenta pendiente.",
-        genres: ["accion", "scifi", "aventura"],
+        genres: ["Acción", "Cienciaficción", "Aventura"],
         rate: "7.0",
         length: "2hr 11mins",
         img:
@@ -1944,8 +1944,8 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "BATMAN-VS-SUPERMAN",
         name: "BATMAN VS SUPERMAN",
         description:
-          "Ante el temor de las acciones que pueda llevar a cabo Superman, el vigilante de Gotham City aparece para poner a raya al superhéroe de Metrópolis, mientras que la opinión pública debate cuál es realmente el héroe que necesitan. El hombre de acero y Batman se sumergen en una contienda territorial, pero las cosas se complican cuando una nueva y peligrosa amenaza surge rápidamente, poniendo en jaque la existencia de la humanidad.",
-        genres: ["accion", "fantasia", "aventura"],
+          "Ante el temor de las Acciónes que pueda llevar a cabo Superman, el vigilante de Gotham City aparece para poner a raya al superhéroe de Metrópolis, mientras que la opinión pública debate cuál es realmente el héroe que necesitan. El hombre de acero y Batman se sumergen en una contienda territorial, pero las cosas se complican cuando una nueva y peligrosa amenaza surge rápidamente, poniendo en jaque la existencia de la humanidad.",
+        genres: ["Acción", "Fantasia", "Aventura"],
         rate: "5.9",
         length: "2hr 33mins",
         img:
@@ -2041,7 +2041,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "Ad astra",
         description:
           "El futuro cercano, un tiempo en el que tanto la esperanza como la adversidad impulsan a la humanidad a mirar hacia las estrellas y más allá. Mientras un misterioso fenómeno amenaza con destruir la vida en el planeta Tierra, el astronauta Roy McBride emprende una misión a través de la inmensidad del espacio y sus muchos peligros para descubrir la verdad sobre una expedición perdida que décadas antes afrontó audazmente el vacío y el silencio en busca de lo desconocido.",
-        genres: ["Ciencia ficción", "Drama"],
+        genres: ["Cienciaficción", "Drama"],
         rate: 6.1,
         length: "1hr 48mins",
         img:
@@ -2068,7 +2068,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1OXn3TAlmuqEDfradzxOXuQxtlxTmbhHt/preview",
       },
       {
-        id: 272,
+        id: 20050610,
         key: "Batman%20Begins",
         name: "Batman Begins",
         description:
@@ -2100,7 +2100,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1sljJBRgzSjrVUQ5G2xaew9xhHL3CV983/preview",
       },
       {
-        id: 714338,
+        id: 20200624,
         key: "Bulbbul",
         name: "Bulbbul",
         description:
@@ -2120,7 +2120,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "Los%20mundos%20de%20Coraline",
         name: "Los mundos de Coraline",
         description:
-          "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa aventura empieza a tomar un cariz peligroso y su otra madre intenta mantenerla a su lado para siempre, Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
+          "Película de animación en la que se nos cuenta la historia de Coraline, una jovencita que descubre en su nueva casa una puerta secreta y decide abrirla. Al hacerlo, descubre una segunda versión de su vida, una vida paralela a la que ella tiene. A primera vista, la realidad paralela es curiosamente parecida a su vida de verdad, aunque mucho mejor. Pero cuando su increíble y maravillosa Aventura empieza a tomar un cariz peligroso y su otra madre intenta mantenerla a su lado para siempre, Coraline deberá recurrir a su determinación y coraje, a la ayuda de los vecinos y a un gato negro con el don del habla para salvar a sus auténticos padres, a unos niños fantasmas y regresar a casa.",
         genres: ["Animación", "Familia"],
         rate: 7.7,
         length: "1hr 48mins",
@@ -2196,7 +2196,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1N-FB1NQrmyF1Rr1ZzBukhluW0yXYBPrL/preview",
       },
       {
-        id: 501170,
+        id: 20191030,
         key: "Doctor%20Sue%C3%B1o",
         name: "Doctor Sueño",
         description:
@@ -2281,7 +2281,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "Equilibrium",
         description:
           'En el mundo del futuro, un régimen estricto ha eliminado las guerras al haber superado las emociones. Los libros, el arte y la música están totalmente prohibidos, y los sentimientos se consideran un crimen castigado con la pena de muerte. El clérigo John Preston (Christian Bale) es un agente de élite del gobierno, responsable de combatir aquellos que osen desafiar las reglas. Cuando pierde una dosis de "Prozium", una droga que altera la mente para ocultar sus emociones, toda su escala de valores cambiará de manera súbita.',
-        genres: ["Acción", "Ciencia ficción"],
+        genres: ["Acción", "Cienciaficción"],
         rate: 7,
         length: "1hr 48mins",
         img:
@@ -2312,7 +2312,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "Fantasy%20Island",
         name: "Fantasy Island",
         description:
-          "El enigmático Sr. Roarke hace realidad los sueños de los afortunados huéspedes que acuden a su lujoso y remoto resort tropical. Sin embargo, sus fantasías se convertirán en pesadillas, y los invitados deberán resolver el misterio que oculta la isla para poder escapar con vida. Adaptación en clave de terror del famoso programa de televisión de los años 70 ambientado en un resort ubicado en una isla mágica.",
+          "El enigmático Sr. Roarke hace realidad los sueños de los afortunados huéspedes que acuden a su lujoso y remoto resort tropical. Sin embargo, sus fantasías se convertirán en pesadillas, y los invitados deberán resolver el misterio que oculta la isla para poder escapar con vida. Adaptación en clave de Terror del famoso programa de televisión de los años 70 ambientado en un resort ubicado en una isla mágica.",
         genres: ["Aventura", "Fantasía"],
         rate: 6.2,
         length: "1hr 48mins",
@@ -2339,7 +2339,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/15hdCF5zCOHnV3wk8ybPWmwjqU5pTkIUP/preview",
       },
       {
-        id: 314,
+        id: 20040722,
         key: "Catwoman",
         name: "Catwoman",
         description:
@@ -2371,7 +2371,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1kgsGHwmzxIaoETY3Qobt5PM2MVS94WZk/preview",
       },
       {
-        id: 567609,
+        id: 20190821,
         key: "Noche%20de%20bodas",
         name: "Noche de bodas",
         description:
@@ -2391,7 +2391,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "Juego%20de%20patriotas",
         name: "Juego de patriotas",
         description:
-          "Jack Ryan es un ex agente de la CIA. Salir de aquel mundillo, tan peculiar, donde el peligro y la acción forman parte del día a día, no ha sido una decisión fácil. Pero no se arrepiente porque ahora, por primera vez, tiene una vida familiar. Durante unas vacaciones en Londres, por casualidad, mientras pasean por la ciudad, son testigos de un atentado contra Lord Holmes, un distinguido miembro de la Familia Real Británica. En medio de la confusión, los gritos y las llamas, su entrenamiento en la CIA hace reaccionar a Ryan automáticamente. Sale a defender a Lord Holmes y al hacerlo, le salva la vida, aunque para ello tiene que matar a uno de los terroristas. El atentado es atribuido al I.R.A..",
+          "Jack Ryan es un ex agente de la CIA. Salir de aquel mundillo, tan peculiar, donde el peligro y la acción forman parte del día a día, no ha sido una decisión fácil. Pero no se arrepiente porque ahora, por primera vez, tiene una vida familiar. Durante unas vacaciones en Londres, por casualidad, mientras pasean por la ciudad, son testigos de un atentado contra Lord Holmes, un distinguido miembro de la Familia Real Británica. En medio de la confusión, los gritos y las llamas, su entrenamiento en la CIA hace reAcciónar a Ryan automáticamente. Sale a defender a Lord Holmes y al hacerlo, le salva la vida, aunque para ello tiene que matar a uno de los Terroristas. El atentado es atribuido al I.R.A..",
         genres: ["Drama", "Acción"],
         rate: 6.6,
         length: "1hr 48mins",
@@ -2600,7 +2600,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "Steel, un héroe de acero",
         description:
           "Un corrupto militar pone en las calles unas innovadoras y peligrosas armas. John Hery (Shaquille O'Neal), un diseñador de armas que trabaja para el ejército norteamericano, se convertirá en la única esperanza que tendrán los desesperados ciudadanos para luchar contra las bandas que asolan las calles. Contará para ello con la ayuda de una experta en electrónica (Annabeth Gish) y la imaginación de un trabajador del metal (Richard Roundtree). Ambos prepararán un equipo de acero con el que Hery podrá enfrentarse en una despiadada guerra en las calles para detener al militar.",
-        genres: ["Ciencia ficción", "Acción"],
+        genres: ["Cienciaficción", "Acción"],
         rate: 4,
         length: "1hr 48mins",
         img:
@@ -2679,7 +2679,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "Un%20paseo%20por%20las%20nubes",
         name: "Un paseo por las nubes",
         description:
-          "Después de regresar del frente, un soldado norteamericano (Keanu Reeves) conoce de forma casual a la hermosa hija del dueño de un viñedo (Aitana Sanchez-Gijón) y acepta ser presentado como su esposo para ayudarla a enfrentarse a su dominante padre. Cuando la pasión entre ellos se enciende con la mágica sensualidad del rito de la cosecha, se dan cuenta de que están embarcándose en una aventura romántica al tener que luchar contra todos para estar juntos.",
+          "Después de regresar del frente, un soldado norteamericano (Keanu Reeves) conoce de forma casual a la hermosa hija del dueño de un viñedo (Aitana Sanchez-Gijón) y acepta ser presentado como su esposo para ayudarla a enfrentarse a su dominante padre. Cuando la pasión entre ellos se enciende con la mágica sensualidad del rito de la cosecha, se dan cuenta de que están embarcándose en una Aventura romántica al tener que luchar contra todos para estar juntos.",
         genres: ["Drama", "Romance"],
         rate: 6.8,
         length: "1hr 48mins",
@@ -2695,7 +2695,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         key: "V%20de%20Vendetta",
         name: "V de Vendetta",
         description:
-          "En un futuro no muy lejano, Gran Bretaña es un país totalitario dirigido con mano de hierro por un tirano (John Hurt). Una tarde, tras el toque de queda nocturno, la joven Evey (Natalie Portman) es rescatada en plena calle por un misterioso enmascarado cuyo nombre es V (Hugo Weaving). El extraño personaje le explica cuáles son sus planes para combatir la falta de libertad. A partir de ese momento, las acciones de V tendrán como objetivo hacer estallar en todo el país una revolución contra el gobierno fascista.",
+          "En un futuro no muy lejano, Gran Bretaña es un país totalitario dirigido con mano de hierro por un tirano (John Hurt). Una tarde, tras el toque de queda nocturno, la joven Evey (Natalie Portman) es rescatada en plena calle por un misterioso enmascarado cuyo nombre es V (Hugo Weaving). El extraño personaje le explica cuáles son sus planes para combatir la falta de libertad. A partir de ese momento, las Acciónes de V tendrán como objetivo hacer estallar en todo el país una revolución contra el gobierno fascista.",
         genres: ["Acción", "Suspense"],
         rate: 7.9,
         length: "1hr 48mins",
@@ -2712,7 +2712,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
         name: "The Vast of Night",
         description:
           "En el ocaso de los años 50, en una fatídica noche en Nuevo México, una joven operadora de centralita telefónica, Fay (Sierra McCormick), y un carismático DJ de radio, Everett (Jake Horowitz), descubren una extraña audiofrecuencia que podría cambiar su pequeño pueblo y el futuro para siempre.",
-        genres: ["Misterio", "Ciencia ficción"],
+        genres: ["Misterio", "Cienciaficción"],
         rate: 6.5,
         length: "1hr 48mins",
         img:
@@ -2739,7 +2739,7 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1v7pBFBlsaxqea-A8OJizaLH7IaKDFU3_/preview",
       },
       {
-        id: 620883,
+        id: 20200508,
         key: "La%20corazonada",
         name: "La corazonada",
         description:
@@ -2755,12 +2755,12 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://drive.google.com/file/d/1R9ke3DezcXMyGpCmPhsrv52vAp67kEc8/preview",
       },
       {
-        id: 2135,
+        id: 20020304,
         key: "La%20m%C3%A1quina%20del%20tiempo",
         name: "La máquina del tiempo",
         description:
           "El científico e inventor Alexander Hartdegen ha tomado la decisión de probar que los viajes a través del tiempo son posibles. Una tragedia personal que lo ha sumido en la desesperación es la razón de su deseo de volver al pasado. Pero la máquina de su invención, en contra de sus deseos, lo lleva al futuro (800.000 después), donde descubre que la humanidad se ha dividido en dos bandos: perseguidores y perseguidos.",
-        genres: ["Ciencia ficción", "Aventura"],
+        genres: ["Cienciaficción", "Aventura"],
         rate: 6.1,
         length: "1hr 48mins",
         img:
@@ -2769,6 +2769,214 @@ export class InMemoryMoviesDataService implements InMemoryDbService {
           "https://image.tmdb.org/t/p/original//i0eOILDW8HipIkOUSKhB1dvZzNJ.jpg",
         url:
           "https://drive.google.com/file/d/1qJ3r8HFbUWKiKTZAiKWeFDSo-3NGJYuI/preview",
+      },
+      {
+        id: 19860801,
+        key: "Howard%3A%20Un%20nuevo%20h%C3%A9roe",
+        name: "Howard: Un nuevo héroe",
+        description:
+          "Desde un lejano planeta, y debido a un error de un laboratorio espacial, llega a La Tierra teletransportado un extraño personaje, un pato que dice llamarse Howard. Es acogido en casa de Beberly, una joven que es vocal de un grupo de rock. Cuando el doctor Jenin intenta devolverle a su planeta, la energia diabólica del experimento le atrapa, transformandole en el terrible Señor de las Tinieblas y Howard tendrá que enfrentarse a él.",
+        genres: ["Comedia", "Fantasía"],
+        rate: 5.3,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//sRidv4QitkAKDzgwOdRrVDJuWNG.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//gdkjHuMPwsdE3mw5dchAeRI1Wl2.jpg",
+        url:
+          "https://drive.google.com/file/d/1qAA7hN2LsuhELN93r-11jazRgTY0xSAz/preview",
+      },
+      {
+        id: 19840701,
+        key: "Supergirl",
+        name: "Supergirl",
+        description:
+          "Superviviente de la explosión del planeta Krypton, la ciudad de Argo vaga por el espacio con sus habitantes viviendo felizmente protegidos por una cúpula. Entre otros muchos, allí viven Zor-El y Alura con su hija adolescente Kara. Kara es muy amiga del respetado -aunque imprudente- científico Zaltar, y durante uno de sus juegos la cúpula protectora de la ciudad resulta dañada y por el agujero se escapa la pequeña esfera que les sirve como fuente de energía: el omegaedro. Zaltar sabe que se ha ganado ser condenado a la Zona Fantasma, y Kara se Aventura en una nave de hiperespacio que la conduce directamente a la búsqueda del omegaedro, que ha ido a parar a la Tierra. Si quiere que la ciudad de Argo, su familia y amigos sobrevivan, debe encontrarlo, porque sin esa fuente de energía la ciudad está condenada a morir en poco tiempo.",
+        genres: ["Aventura", "Fantasía"],
+        rate: 4.8,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//9ZSS0Gc5fwcu8apglDGoK6zlarL.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//iITh61m2nhUQ27kfmWH5bGoxEuf.jpg",
+        url:
+          "https://drive.google.com/file/d/1xSZGcfS-5EdJSP--zUTLnsDxgumxvb-Z/preview",
+      },
+      {
+        id: 19781213,
+        key: "Superman",
+        name: "Superman",
+        description:
+          "Desde una galaxia remota, un recién nacido es enviado por sus padres al espacio debido a la inminente destrucción del planeta donde viven. La nave aterriza en la Tierra, y el niño es adoptado por unos granjeros que le inculcan los mejores valores humanos. Con los años el joven se irá a Metrópolis y allí usará sus poderes sobrenaturales para luchar contra el mal...",
+        genres: ["Cienciaficción", "Acción"],
+        rate: 7.1,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//gealrR4xCg5VDS1XjUlx0HgVEbk.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//v6MVBFnQOscITvmAy5N5ras2JKZ.jpg",
+        url:
+          "https://drive.google.com/file/d/1X0P6kRv85ClkrrcIJNtvbVC-48LhtZBr/preview",
+      },
+      {
+        id: 19801204,
+        key: "Superman%20II",
+        name: "Superman II",
+        description:
+          "Tres criminales, procedentes del planeta Krypton, a los que el padre de Superman condenó a vagar por el espacio, eluden su condena y se dirigen a la Tierra para enfrentarse a Superman, en una batalla cósmica por la supremacía sobre el planeta. Al mismo tiempo, el superhéroe continúa ocultando su identidad tras la tímida personalidad del reportero Clark Kent, aunque su novia Lois Lane comienza a sospechar algo.",
+        genres: ["Cienciaficción", "Acción"],
+        rate: 6.7,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//r9ZRah6rYBoRuPyj8g5Ei411XNM.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//nzs2vnuYolB2dSdX9N8GZ7sz1kP.jpg",
+        url:
+          "https://drive.google.com/file/d/1PoAru4870JpKirQYHBax56lhRzv2NiKY/preview",
+      },
+      {
+        id: 19830617,
+        key: "Superman%20III",
+        name: "Superman III",
+        description:
+          "Superman se tiene que enfrentar con una máquina creada por un genio de los ordenadores llamado Gus Gorman, contra un magnate megalómano que pretende transformar la Tierra y lo que es mucho peor contra un desdoblamiento de personalidad. Pero también habrá tiempo para que Clark Kent vuelva a Smallville, donde se encontrará con Lana Lang, su novia de la adolescencia.",
+        genres: ["Comedia", "Cienciaficción"],
+        rate: 5.4,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//sRemqk6mvW0J4AwvMlDZxCppOrQ.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//qvBt5JJKX3rnmAU3CIZOGrOaq8m.jpg",
+        url:
+          "https://drive.google.com/file/d/1cHRMMX69zi7XYMj7TbLhs0Wg9-TgVXeN/preview",
+      },
+      {
+        id: 20030619,
+        key: "Hulk",
+        name: "Hulk",
+        description:
+          'Bruce Banner un brillante investigador en el campo de la tecnología genética, oculta un pasado doloroso que lo ha dejado estigmatizado. Su antigua novia, la investigadora Betty Ross (Jennifer Connelly), que perdió la paciencia esperando que recuperara la estabilidad emocional, fue testigo de un grave accidente sufrido por Banner en el laboratorio: debido a una explosión el cuerpo del científico absorbió una dosis letal de rayos gamma; desde entonces, Banner empezó a sentir en su interior la presencia de un ente peligroso y, a la vez, oscuramente atractivo. Mientras tanto, Hulk, una criatura salvaje y prodigiosamente fuerte aparece esporádicamente, dejando tras de sí una estela de destrucción. Se trata de una situación de emergencia que exige la intervención del ejército, encabezado por el padre de Betty, el general "Thunderbolt" Ross. Betty es la única que sospecha que Bruce tiene algo que ver con Hulk.',
+        genres: ["Acción", "Cienciaficción"],
+        rate: 5.5,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//scLV1AO6TLi45N7AJanjYR48i78.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//5AQUYjvO0Bnkjj0CArfykrDoABG.jpg",
+        url:
+          "https://drive.google.com/file/d/1h33Lca9Hgknhu86OJ2TMcsCI3CLalkae/preview",
+      },
+      {
+        id: 20090305,
+        key: "Watchmen",
+        name: "Watchmen",
+        description:
+          'Estados Unidos, años 80. La Guerra Fría está en su apogeo, y los superhéroes, que antes habían sido admirados, ahora son perseguidos por la ley. Un día aparece muerto uno de ellos, "El Comediante", que trabajaba para la CIA. Su amigo Rorschach, el único héroe enmascarado en activo, emprenderá la investigación de su muerte, tras la que se oculta algo muy importante. Esperadísima adaptación del cómic de Alan Moore y Dave Gibbons (1986).',
+        genres: ["Acción", "Misterio"],
+        rate: 7.3,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//bQ1fT5xjhFesHqKe1NgY088yOT8.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//dH7ia3vtkYCa3CBvDnvVjqm9uiQ.jpg",
+        url:
+          "https://drive.google.com/file/d/1g-W76wBTFPktCTUFEN4Awx95_GwtNvfx/preview",
+      },
+      {
+        id: 19890623,
+        key: "Batman",
+        name: "Batman",
+        description:
+          "Atormentado por haber visto morir a sus padres delante suyo, Bruce Wayne se enfunda cada noche en el traje de Batman, adopta la Terrorífica forma de un murciélago y surca los tejados de Gotham City combatiendo el crimen y manteniendo a raya la corrupción de su ciudad. Pero esta vez Batman tendrá que enfrentarse a su más terrible enemigo, El Joker, que pretende someter a toda la ciudad bajo los deseos de su mente perturbada.",
+        genres: ["Fantasía", "Acción"],
+        rate: 7.2,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//k0f0FNZx0eBUCYiVpun9WUh0BFk.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//2va32apQP97gvUxaMnL5wYt4CRB.jpg",
+        url:
+          "https://drive.google.com/file/d/1BQcxn7wp7ze2EqsL8BurMRj6smGl5Xjc/preview",
+      },
+      {
+        id: 19970620,
+        key: "Batman%20y%20Robin",
+        name: "Batman y Robin",
+        description:
+          "Unos experimentos de criogenia han convertido al Dr. Victor Fries en el malvado Mr. Freeze, un villano que necesita mantener su cuerpo a temperaturas gélidas y que, por ello, intentará congelar a todos los habitantes de la ciudad de Gotham. Por otro lado, la tímida botánica Pamela Isley se transformará en el transcurso de un experimento en la terrible Hiedra Venenosa, que querrá asesinar a todos los seres humanos de la tierra, para que las plantas recuperen su hegemonía sobre el planeta. Por este motivo, Batman y Robin deberán enfrentarse a ellos y detener sus siniestros planes.",
+        genres: ["Cienciaficción", "Acción"],
+        rate: 4.3,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//gJAvyXHdIjeKHS07Dlim7LETBEK.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//tgPFZxhDuxWd4VXYaz8eAUznGTF.jpg",
+        url:
+          "https://drive.google.com/file/d/11NyAbvwBq19uDHF9ezRa1DDnvYeTjf_E/preview",
+      },
+      {
+        id: 20080716,
+        key: "El%20caballero%20oscuro",
+        name: "Batman: El caballero oscuro",
+        description:
+          "Batman/Bruce Wayne regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon y del Fiscal del Distrito Harvey Dent, Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker, un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos.",
+        genres: ["Drama", "Acción"],
+        rate: 8.4,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//8QDQExnfNFOtabLDKqfDQuHDsIg.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//hkBaDkMWbLaf8B1lsWsKX7Ew3Xq.jpg",
+        url:
+          "https://drive.google.com/file/d/1nZ4QB4kK_irRv4W_ZWXs-9dmp3eZhjp9/preview",
+      },
+      {
+        id: 20120716,
+        key: "El%20caballero%20oscuro%3A%20La%20leyenda%20renace",
+        name: "Batman:El caballero oscuro: La leyenda renace",
+        description:
+          "Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo. Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió sacrificarlo todo por lo que consideraba, al igual que el Comisario Gordon, un bien mayor. La mentira funciona durante un tiempo, ya que la actividad criminal de la ciudad de Gotham se ve aplacada gracias a la dura Ley Dent. Pero todo cambia con la llegada de una astuta gata ladrona que pretende llevar a cabo un misterioso plan. Sin embargo, mucho más peligrosa es la aparición en escena de Bane, un Terrorista enmascarado cuyos despiadados planes obligan a Bruce a regresar de su voluntario exilio.",
+        genres: ["Acción", "Crimen"],
+        rate: 7.7,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//rrS7K8tXVFUBliIKWaRuSq65nWr.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//cKPfiu9IcCW0fMdKdQBXe3PRtTZ.jpg",
+        url:
+          "https://drive.google.com/file/d/1BZCODTTbiLOALNcrNMJdrqxkX91JEkVZ/preview",
+      },
+      {
+        id: 19950616,
+        key: "Batman%20Forever",
+        name: "Batman Forever",
+        description:
+          "La ciudad de Gotham está amenazada de nuevo. Esta vez, se trata de una maligna pareja compuesta por Dos Caras y Enigma, que procurarán alterar la paz de sus conciudadanos y del mundo entero para siempre. Por este motivo, Bruce Wayne deberá enfundarse otra vez el traje de Batman y luchar contra ellos; pero esta vez no estará solo, ya que será acompañado por el joven Robin.",
+        genres: ["Acción", "Crimen"],
+        rate: 5.3,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//wg6BN76E9iIEtiawMJnCecY0zgY.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//snlu32RmjldF9b068UURJg8sQtn.jpg",
+        url:
+          "https://drive.google.com/file/d/13VmPqlN2il0DTF4DuM670uCjf6L-ulDD/preview",
+      },
+      {
+        id: 20200228,
+        key: "Violet%20y%20Finch",
+        name: "Violet y Finch",
+        description:
+          "Violet y Theodore son dos amigos cuyo encuentro cambia sus vidas para siempre. Mientras luchan por dejar atrás las cicatrices de su pasado, descubren que incluso los momentos más insignificantes pueden tener una importancia crucial en sus vidas.",
+        genres: ["Drama", "Romance"],
+        rate: 7.7,
+        length: "1hr 48mins",
+        img:
+          "https://image.tmdb.org/t/p/w220_and_h330_face//4SafxuMKQiw4reBiWKVZJpJn80I.jpg",
+        cover:
+          "https://image.tmdb.org/t/p/original//tcrNJfyNEIqaBR8Ogkgnq5xQJnf.jpg",
+        url:
+          "https://drive.google.com/file/d/1-VtIscov-yFpgGz5pecrE6PIKlp_nfIX/preview",
       },
     ];
     return { movies };
