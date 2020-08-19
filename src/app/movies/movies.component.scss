@@ -18,19 +18,19 @@
         outline: none;
         font-size: 1em;
         padding-left: 4em;
-        &::-webkit-input-placeholder {
-            color: $primary-color-light;
-        }
-        &:-ms-input-placeholder {
-            color: $primary-color-light;
-        }
-        &::placeholder {
-            color: $primary-color-light;
-        }
-        &:focus {
-            outline: none !important;
-            border: 1px solid $primary-color-light;
-        }
+        // &::-webkit-input-placeholder {
+        //     color: $primary-color-light;
+        // }
+        // &:-ms-input-placeholder {
+        //     color: $primary-color-light;
+        // }
+        // &::placeholder {
+        //     color: $primary-color-light;
+        // }
+        // &:focus {
+        //     outline: none !important;
+        //     border: 1px solid $primary-color-light;
+        // }
     }
     img {
         position: absolute;
@@ -93,7 +93,7 @@
     flex-direction: column;
     width: calc(100% - 200px);
     max-height: 100vh;
-    overflow-y: scroll;
+    //overflow-y: scroll;
     .movies-list-header {
         display: flex;
         justify-content: space-between;
